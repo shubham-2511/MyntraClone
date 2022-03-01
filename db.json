@@ -1,0 +1,719 @@
+{
+  "kurtas-suits": [
+    {
+      "brand_name": "Popnetic",
+      "name": "Women Pink & White Block Printed Straight Kurta",
+      "price": {
+        "mrp": 1399,
+        "discount": 70,
+        "sp": 419
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.0,
+      "product_details": [
+        "Pink and White block printed straight kurta, has a round neck, three-quarter sleeves, straight hem, and side slits"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066858/2020/1/13/7e6e72d5-7823-4563-b6e3-7da68e67bc551578911632787-Popnetic-Women-Pink--White-Block-Printed-Straight-Kurta-9771-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066858/2020/1/13/dd9503ca-1ab2-48c4-bea3-2e9969b1bdc51578911632736-Popnetic-Women-Pink--White-Block-Printed-Straight-Kurta-9771-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066858/2020/1/13/07d80cf8-0906-4016-b12c-8844a26f23c71578911632904-Popnetic-Women-Pink--White-Block-Printed-Straight-Kurta-9771-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066858/2020/1/13/2b4ced9b-dea1-4243-af65-d3f15e0897eb1578911632844-Popnetic-Women-Pink--White-Block-Printed-Straight-Kurta-9771-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066858/2020/1/13/71b8af3c-f5a1-402b-9a40-0342e1fddb631578911632684-Popnetic-Women-Pink--White-Block-Printed-Straight-Kurta-9771-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Varanga",
+      "name": "Pink Bandhej Gotta Patti Embroidery Yoke Sequin Straight Kurta",
+      "price": {
+        "mrp": 3399,
+        "discount": 76,
+        "sp": 815
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 3.7,
+      "product_details": [
+        "Pink, three-quarter sleeves,regular,round neck,Gota Patti & Dori embroidery with sequin detail on yoke,Floral Motif embroidery,Lining attachment on front & back,straight hemline"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13523728/2021/3/3/903520c6-b4f6-4ab3-804b-5018fe78dc041614762326915-Varanga-Pink-Bandhej-Gotta-Patti-Embroidery-Yoke-Sequin-Stra-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13523728/2021/3/3/1439bc98-a704-455c-82eb-d2af17fa01f91614762326886-Varanga-Pink-Bandhej-Gotta-Patti-Embroidery-Yoke-Sequin-Stra-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13523728/2021/3/3/0d2d6574-f776-4776-841b-dc0c80a5d5c11614762326857-Varanga-Pink-Bandhej-Gotta-Patti-Embroidery-Yoke-Sequin-Stra-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13523728/2021/3/3/234ed16d-ba2a-499a-975f-95e4959fffb21614762326828-Varanga-Pink-Bandhej-Gotta-Patti-Embroidery-Yoke-Sequin-Stra-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13523728/2021/3/3/effad8ae-d515-4190-a7b9-4f7f38a409e51614762326799-Varanga-Pink-Bandhej-Gotta-Patti-Embroidery-Yoke-Sequin-Stra-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Libas",
+      "name": "Women Yellow & White Ethnic Motifs Print Cotton Straight Kurta",
+      "price": {
+        "mrp": 1299,
+        "discount": 55,
+        "sp": 584
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Colour: yellow and white ,Ethnic motifs print,Round neck,Three-quarter sleeves, regular sleeves,Straight shape with regular style,Calf length with straight hem,Machine weave regular cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023520/2021/8/26/58071241-176a-4497-84dc-58b1b18b9c421629979196591-Libas-Women-Yellow--White-Ethnic-Motifs-Print-Cotton-Straigh-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023520/2021/8/26/3908b23d-ec21-4874-837b-7274f270925c1629979196581-Libas-Women-Yellow--White-Ethnic-Motifs-Print-Cotton-Straigh-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023520/2021/8/26/dcd2cb8a-61a4-4b02-be0c-f27c637976c61629979196572-Libas-Women-Yellow--White-Ethnic-Motifs-Print-Cotton-Straigh-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023520/2021/8/26/879f07af-e120-403f-abe2-d6b920194bae1629979196562-Libas-Women-Yellow--White-Ethnic-Motifs-Print-Cotton-Straigh-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023520/2021/8/26/2eaeb623-bc5c-4b52-9b39-db57c420e4aa1629979196552-Libas-Women-Yellow--White-Ethnic-Motifs-Print-Cotton-Straigh-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Popnetic",
+      "name": "Women Grey & Pink Printed Angrakha A-Line Kurta",
+      "price": {
+        "mrp": 1699,
+        "discount": 70,
+        "sp": 509
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.2,
+      "product_details": [
+        "Grey and Pink printed A-line kurta, has a V-neck, three-quarter sleeves, and flared hem"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066874/2020/1/13/917431db-6e1a-4ec1-8ea7-e49443ddaf6d1578900002075-Popnetic-Women-Grey--Pink-Printed-A-Line-Kurta-9661578900000-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066874/2020/1/13/0d51371a-e4a6-4bc1-85bf-599f2dcd56371578900002026-Popnetic-Women-Grey--Pink-Printed-A-Line-Kurta-9661578900000-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066874/2020/1/13/e67f6e2d-c411-4c40-88b4-88c02a23b84a1578900001980-Popnetic-Women-Grey--Pink-Printed-A-Line-Kurta-9661578900000-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066874/2020/1/13/ea51c7cb-509b-48e4-bbcb-c1e54d6f4f3d1578900001930-Popnetic-Women-Grey--Pink-Printed-A-Line-Kurta-9661578900000-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11066874/2020/1/13/36121d27-c75d-4d6d-b13e-0fd635c0cad11578900001868-Popnetic-Women-Grey--Pink-Printed-A-Line-Kurta-9661578900000-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Varanga",
+      "name": "Women Mauve & White Bandhani Printed Pure Cotton Kurta",
+      "price": {
+        "mrp": 2799,
+        "discount": 75,
+        "sp": 699
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Peach And White Bandhani Printed Kurta,Gota Embroidery,Round Neckline,3/4Th Sleeves,Embroidered Buttons Detail"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13764318/2021/4/7/c6a16eb7-833d-4df2-8e0e-cb694a8a83e51617792817180-Varanga-Peach-Bandhani-Printed-Embroidered-Kurta-69516177928-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13764318/2021/4/7/05c08924-037c-4102-b0e6-8101e65b39d81617792817156-Varanga-Peach-Bandhani-Printed-Embroidered-Kurta-69516177928-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13764318/2021/4/7/4d09638a-df59-4dc5-8ba6-cf52e584796a1617792817129-Varanga-Peach-Bandhani-Printed-Embroidered-Kurta-69516177928-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13764318/2021/4/7/314c39fe-ce43-4b29-aa82-894ad4cee60b1617792817103-Varanga-Peach-Bandhani-Printed-Embroidered-Kurta-69516177928-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13764318/2021/4/7/74b9a552-d017-456b-b67b-9e7bfb2f7b091617794427740-Varanga-Peach-Bandhani-Printed-Embroidered-Kurta-84016177944-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Libas",
+      "name": "Women Off White & Black Ethnic Motifs Printed Kurta",
+      "price": {
+        "mrp": 1199,
+        "discount": 55,
+        "sp": 539
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Colour: off white and black",
+        "Ethnic motifs printed",
+        "Round neck",
+        "Three-quarter",
+        "regular sleeves",
+        "Straight shape with regular style",
+        "Calf length with straight hem",
+        "Machine weave regular cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/7628eb69-c9c9-4a9f-962e-40b4769e01ff1629965924595-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/fe9f75fc-4ab8-4de4-8261-58a12506189a1629965924585-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/58434120-8909-4838-bd34-06dbfa42cd671629978973205-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/9b6b73bf-685c-4a42-98ff-ea827d24d39c1629965924567-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/499971af-1d25-4c64-a5ed-36a0f45d8bf31629965924556-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Anouk",
+      "name": "Pink & White Striped Pure Cotton Striped Straight Kurta",
+      "price": {
+        "mrp": 1899,
+        "discount": 65,
+        "sp": 664
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 3.6,
+      "product_details": [
+        "Pink and white striped kurta",
+        "straight shape",
+        "short sleeves",
+        "mandarin collar",
+        "button closure",
+        "calf length",
+        "curved hem",
+        "panelled style",
+        "machine weave"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/7628eb69-c9c9-4a9f-962e-40b4769e01ff1629965924595-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/fe9f75fc-4ab8-4de4-8261-58a12506189a1629965924585-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/58434120-8909-4838-bd34-06dbfa42cd671629978973205-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/9b6b73bf-685c-4a42-98ff-ea827d24d39c1629965924567-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023518/2021/8/26/499971af-1d25-4c64-a5ed-36a0f45d8bf31629965924556-Libas-Women-Off-White--Black-Ethnic-Motifs-Print-Pure-Cotton-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Varanga",
+      "name": "Women Turquoise Blue & White Leheriya Printed Paneled Kurta",
+      "price": {
+        "mrp": 2999,
+        "discount": 74,
+        "sp": 779
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Colour: turquoise blue & white",
+        "Three-quarter sleeves regular sleeves",
+        "Round neck",
+        "Calf length",
+        "Straight hem",
+        "Straight shape with panelled style",
+        "Machine weave regular cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13647620/2021/3/2/39331db5-2683-4f01-980e-56909c2bc31c1614668270577-Varanga-Turquoise-And-White-Leheriya-Printed-Kurta-With-Gota-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13647620/2021/3/2/f5445ba5-7c3f-4db8-8ee4-d00f4d9469521614668270555-Varanga-Turquoise-And-White-Leheriya-Printed-Kurta-With-Gota-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13647620/2021/3/2/75293657-7e3c-44a9-8f1a-f97abb92baad1614668270523-Varanga-Turquoise-And-White-Leheriya-Printed-Kurta-With-Gota-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13647620/2021/3/2/f00aef63-979c-42fa-b767-a81d2549ab2b1614668270500-Varanga-Turquoise-And-White-Leheriya-Printed-Kurta-With-Gota-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13647620/2021/3/2/64aaf784-5ef3-4760-9268-a6d3fc1feb451614668270482-Varanga-Turquoise-And-White-Leheriya-Printed-Kurta-With-Gota-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Popnetic",
+      "name": "Women Green & Gold-Toned Kurta",
+      "price": {
+        "mrp": 1499,
+        "discount": 70,
+        "sp": 449
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "customer_rating": 3.7,
+      "product_details": [
+        "Colour: green and gold-toned",
+        "Woven design woven design",
+        "Mandarin collar",
+        "Short regular sleeves",
+        "A-line shape with regular style",
+        "Zari detail",
+        "Calf length with straight hem",
+        "Machine weave regular cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15107694/2021/9/4/171f0266-70fa-414b-a70a-6ce49ffeffa31630746318489-Popnetic-Women-Green--Gold-Toned-Kurta-1571630746318056-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15107694/2021/9/4/d48798d0-8aa3-4c84-a112-281e5c46d5231630746318467-Popnetic-Women-Green--Gold-Toned-Kurta-1571630746318056-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15107694/2021/9/4/a0fd0086-24a1-4995-b4df-9b0d989beab21630746318447-Popnetic-Women-Green--Gold-Toned-Kurta-1571630746318056-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15107694/2021/9/4/4deba3dd-b6e3-4c55-ae63-2c9c55aa71bc1630746318428-Popnetic-Women-Green--Gold-Toned-Kurta-1571630746318056-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15107694/2021/9/4/8a8f5861-6257-4f4b-bbe8-bde4188697441630746318406-Popnetic-Women-Green--Gold-Toned-Kurta-1571630746318056-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Nayo",
+      "name": "Lavender White Floral Printed Kurta",
+      "price": {
+        "mrp": 1299,
+        "discount": 50,
+        "sp": 649
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL", "3XL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Lavender and white kurta",
+        "straight shape with three-quarter sleeves",
+        "regular sleeves",
+        "v-neck",
+        "calf length",
+        "regular style",
+        "machine weave cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/18/3383e926-dc78-4ce5-bd67-1be3441797f61613624136823-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/18/6000a59b-58b5-45e9-ad66-4e08cf91f1051613624136843-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/18/f62a9fe7-d153-4c6a-af52-ad0f721373111613624136864-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/18/89ab2265-d102-4b3c-9a6a-5c156f1a107d1613624136885-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/18/e99cf325-281f-4694-aa18-45ab59ba4d741613624136906-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Varanga",
+      "name": "Women Lime Green & Silver-Toned Printed Straight Kurta",
+      "price": {
+        "mrp": 1399,
+        "discount": 50,
+        "sp": 699
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "customer_rating": 3.8,
+      "product_details": [
+        "Lime green and silver-toned printed straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slits"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11494092/2020/2/28/7841bc3a-824d-4f64-a584-e7f6b8bb832d1582894256229-Varaga-printed-lime-green-mandarian-collar-straight-kurta-si-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11494092/2020/2/28/efc10e8d-54e7-4e17-9d78-bcbcb645a26e1582894256189-Varaga-printed-lime-green-mandarian-collar-straight-kurta-si-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11494092/2020/2/28/b1c2fb18-e574-44dd-b9c0-863c524a9e421582894256137-Varaga-printed-lime-green-mandarian-collar-straight-kurta-si-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11494092/2020/2/28/9468f2fe-efba-49b0-a79d-89c1a7a64a251582894256088-Varaga-printed-lime-green-mandarian-collar-straight-kurta-si-4.jpg"
+      ]
+    },
+    {
+      "brand_name": "Anouk",
+      "name": "Women Pink Printed Straight Kurta",
+      "price": {
+        "mrp": 1399,
+        "discount": 50,
+        "sp": 699
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+      "customer_rating": 3.9,
+      "product_details": [
+        "Pink printed straight kurta, has a V-neck, three-quarter sleeves, straight hem, side slits"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2322979/2018/2/13/11518506064968-Anouk-Women-Peach-Coloured-Printed-Straight-Kurta-6851518506064751-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2322979/2018/2/13/11518506064945-Anouk-Women-Peach-Coloured-Printed-Straight-Kurta-6851518506064751-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2322979/2018/2/13/11518506064911-Anouk-Women-Peach-Coloured-Printed-Straight-Kurta-6851518506064751-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2322979/2018/2/13/11518506064876-Anouk-Women-Peach-Coloured-Printed-Straight-Kurta-6851518506064751-4.jpg"
+      ]
+    },
+    {
+      "brand_name": "Indo Era",
+      "name": "Women Magenta & Silver Striped Kurta",
+      "price": {
+        "mrp": 2399,
+        "discount": 73,
+        "sp": 647
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 2.9,
+      "product_details": [
+        "Colour: magenta and silver",
+        "Striped",
+        "Boat neck",
+        "Three-quarter, regular sleeves",
+        "Straight shape with regular style",
+        "Calf length with straight hem",
+        "Machine weave regular cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14235022/2021/6/25/dc0f94ae-b874-46d0-9c5e-f61138ed34791624595393979-Indo-Era-Women-Magenta--Silver-Striped-Kurta-871624595393275-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14235022/2021/6/25/5ffe0e47-d182-44fb-bfba-f3568349143b1624595393969-Indo-Era-Women-Magenta--Silver-Striped-Kurta-871624595393275-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14235022/2021/6/25/7a5043ec-2f51-46e9-81bc-d384907800ff1624595393948-Indo-Era-Women-Magenta--Silver-Striped-Kurta-871624595393275-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14235022/2021/6/25/2cc9430f-ccff-4042-b8f7-80c8a63fd1671624595393928-Indo-Era-Women-Magenta--Silver-Striped-Kurta-871624595393275-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14235022/2021/6/25/2d5b2a24-e746-4938-b369-bd01ff0f11be1624595393909-Indo-Era-Women-Magenta--Silver-Striped-Kurta-871624595393275-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Varanga",
+      "name": "Women Mustard Yellow Floral Yoke Embroidered Straight Kurta",
+      "price": {
+        "mrp": 1999,
+        "discount": 70,
+        "sp": 599
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Mustard yellow floral yoke embroidered straight kurta, has a round neck, three-quarter sleeves, straight hem, and side slits"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12413214/2021/11/22/bb925efb-80d9-4cb6-838c-df86f1ba3c3e1637570416652-Varanga-Women-Mustard-Yellow-Floral-Yoke-Embroidered-Straigh-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12413214/2021/11/22/4b26bfc7-170d-4f31-ba1c-cd68107c49171637570416643-Varanga-Women-Mustard-Yellow-Floral-Yoke-Embroidered-Straigh-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12413214/2021/11/22/a6c0c53b-ad47-40a3-922c-37b0ccb437961637570416634-Varanga-Women-Mustard-Yellow-Floral-Yoke-Embroidered-Straigh-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12413214/2021/11/22/fdf46904-2143-4899-9d7b-694503d0e2201637570416625-Varanga-Women-Mustard-Yellow-Floral-Yoke-Embroidered-Straigh-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12413214/2021/11/22/fc78b679-2ad7-4b83-8cb1-81c0b62555081637570416602-Varanga-Women-Mustard-Yellow-Floral-Yoke-Embroidered-Straigh-6.jpg"
+      ]
+    },
+    {
+      "brand_name": "Inddus",
+      "name": "Women Green & Off White Floral Printed Anarkali Kurta with Dupatta",
+      "price": {
+        "mrp": 6199,
+        "discount": 60,
+        "sp": 2479
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.2,
+      "product_details": [
+        "Colour: Green and off white",
+        "Floral printed",
+        "V-neck",
+        "Short puff sleeves",
+        "Anarkali shape with Angrakha style",
+        "Ankle length with flared hem",
+        "Machine weave regular georgette",
+        "An attached lining",
+        "Green solid dupatta with printed bord"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13895588/2021/4/10/524183fa-e9e0-45ba-a989-704c10cefc581618028254298-Inddust-Bottle-Green-Anarkali-Kurta-with-Dupatta-66161802825-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13895588/2021/4/10/955ceb6a-a3fa-4bb1-84e6-932b0186bf531618028254268-Inddust-Bottle-Green-Anarkali-Kurta-with-Dupatta-66161802825-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13895588/2021/4/10/f637169e-920c-438f-9440-f63d115eff531618028254243-Inddust-Bottle-Green-Anarkali-Kurta-with-Dupatta-66161802825-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13895588/2021/4/10/49f608f9-5bc8-48c9-9254-6a82c3dcda1f1618028254220-Inddust-Bottle-Green-Anarkali-Kurta-with-Dupatta-66161802825-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13895588/2021/4/10/440ae189-9af9-4bba-af1f-256f16c2e1fd1618028254195-Inddust-Bottle-Green-Anarkali-Kurta-with-Dupatta-66161802825-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Indo Era",
+      "name": "Women Maroon & White Ethnic Motifs Printed Kurta",
+      "price": {
+        "mrp": 1899,
+        "discount": 63,
+        "sp": 702
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4,
+      "product_details": [
+        "Colour: maroon and white",
+        "Ethnic motifs printed",
+        "Mandarin collar",
+        "Three-quarter, regular sleeves",
+        "Straight shape with regular style",
+        "Calf length with straight hem",
+        "Machine weave regular cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/8/3892fbd3-c57b-4a3f-b7c3-5f57bfeb6c861623124547866-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/8/a24a5f89-41be-4e07-832d-55b4181545741623124547878-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/8/20460eea-804b-4a75-a1d5-40a22eb3a7d41623124547890-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/8/b1a1782d-8533-41bc-ae60-ed75b8fcf9581623124547901-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/8/c8677a48-5fe9-4b59-b42c-93c854f421241623124547912-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Jaipur Kurti",
+      "name": "Women Blue & Green Printed Straight Kurta",
+      "price": {
+        "mrp": 1649,
+        "discount": 67,
+        "sp": 544
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.2,
+      "product_details": [
+        "Blue and green printed straight kurta, has a round neck with hook-and-eye closure, three-quarter sleeves, straight hem, side slits"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5571465/2018/5/15/2ac3672a-d16d-4aec-b853-30a3f50708021526387316249-Jaipur-Kurti-Women-Turquoise-Blue--Green-Printed-Straight-Kurta-5621526387316032-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5571465/2018/5/15/bb4131b0-d8cc-4e4b-83f8-2d4e827a8b951526387316220-Jaipur-Kurti-Women-Turquoise-Blue--Green-Printed-Straight-Kurta-5621526387316032-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5571465/2018/5/15/b0d5554d-6b58-4b30-8118-301654d1f5bc1526387316199-Jaipur-Kurti-Women-Turquoise-Blue--Green-Printed-Straight-Kurta-5621526387316032-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5571465/2018/5/15/06ed4369-1bd8-4ede-a486-7a452792493e1526387316167-Jaipur-Kurti-Women-Turquoise-Blue--Green-Printed-Straight-Kurta-5621526387316032-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5571465/2018/5/15/00134c96-e7a4-4151-ba70-b7c2c202e2b71526387316132-Jaipur-Kurti-Women-Turquoise-Blue--Green-Printed-Straight-Kurta-5621526387316032-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Indo Era",
+      "name": "Women Magenta Foil Printed Straight Kurta",
+      "price": {
+        "mrp": 2499,
+        "discount": 75,
+        "sp": 624
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 3,
+      "product_details": [
+        "    Colour: magenta",
+        "Ethnic motifs printed",
+        "Round neck",
+        "Three quarter Sleeves",
+        "Straight shape with high slit style",
+        "Gotta patti detail",
+        "Calf length with straight hem",
+        "Machine weave regular viscose rayon"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15373448/2021/9/6/e9e74639-3a0e-4e04-82af-c2327f8770771630922640208IndoEraWomenMagentaEthnicMotifsPrintedKeyholeNeckGottaPattiK1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15373448/2021/9/6/9e089c4d-9248-4278-a527-4c4cfcda185b1630922639677IndoEraWomenMagentaEthnicMotifsPrintedKeyholeNeckGottaPattiK2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15373448/2021/9/6/1942e16d-1051-44eb-9d2f-254dccafeb521630922639232IndoEraWomenMagentaEthnicMotifsPrintedKeyholeNeckGottaPattiK3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15373448/2021/9/6/71bac798-b199-4f30-bf7a-6b211bd9771e1630922639926IndoEraWomenMagentaEthnicMotifsPrintedKeyholeNeckGottaPattiK7.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15373448/2021/9/6/8a653df2-1ebf-42db-b54c-adc4151b104e1630922640059IndoEraWomenMagentaEthnicMotifsPrintedKeyholeNeckGottaPattiK5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Inddus",
+      "name": "Women Beige & Peach-Coloured Printed Anarkali Kurta With Dupatta",
+      "price": {
+        "mrp": 7499,
+        "discount": 60,
+        "sp": 2999
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Beige and Peach-coloured printed anarkali kurta, has a sweetheart neck, short sleeves, and flared hem"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/9c5ef22f-2415-4ac5-9fb9-206d592afa041601539898170-Inddus-Women-Kurtas-1341601539895541-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/c94c5201-5af2-4eaf-91cc-fa0b09023d051601539898128-Inddus-Women-Kurtas-1341601539895541-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/1c3032db-dbf4-4e2c-b31a-53bfca8a9ad51601539898080-Inddus-Women-Kurtas-1341601539895541-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/059a2d19-8290-4dab-ae7e-76c40d7c1d871601539897943-Inddus-Women-Kurtas-1341601539895541-6.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/4a3be36d-a548-464b-81ef-c1e0f5d5ceb71601539897988-Inddus-Women-Kurtas-1341601539895541-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Inddus",
+      "name": "Women Beige & Peach-Coloured Printed Anarkali Kurta With Dupatta",
+      "price": {
+        "mrp": 7499,
+        "discount": 60,
+        "sp": 2999
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Beige and Peach-coloured printed anarkali kurta, has a sweetheart neck, short sleeves, and flared hem"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/9c5ef22f-2415-4ac5-9fb9-206d592afa041601539898170-Inddus-Women-Kurtas-1341601539895541-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/c94c5201-5af2-4eaf-91cc-fa0b09023d051601539898128-Inddus-Women-Kurtas-1341601539895541-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/1c3032db-dbf4-4e2c-b31a-53bfca8a9ad51601539898080-Inddus-Women-Kurtas-1341601539895541-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/059a2d19-8290-4dab-ae7e-76c40d7c1d871601539897943-Inddus-Women-Kurtas-1341601539895541-6.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12491406/2020/10/1/4a3be36d-a548-464b-81ef-c1e0f5d5ceb71601539897988-Inddus-Women-Kurtas-1341601539895541-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Taavi",
+      "name": "Women Green & Pink Hand Block Print Legacy Straight Kurta with Tassel Detail",
+      "price": {
+        "mrp": 1499,
+        "discount": 55,
+        "sp": 674
+      },
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "customer_rating": 4.3,
+      "product_details": [
+        "Region: Andhra Pradesh, Gujarat, Rajasthan, Madhya Pradesh, Uttar Pradesh, West Bengal",
+        "Green and pink",
+        "Hand block print calf-length straight kurta",
+        "Round neck",
+        "Short sleeves",
+        "Straight hem",
+        "Hand block print legacy"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11157096/2020/1/10/b22cd2d3-74ff-433d-ae73-1e3a00c183781578637796788-Taavi-Women-Kurtas-4581578637795064-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11157096/2020/1/10/f9941449-7369-4ed1-8105-f72934110de81578637796745-Taavi-Women-Kurtas-4581578637795064-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11157096/2020/1/10/083d0b1f-704f-4b09-bad7-750240e899b31578637796706-Taavi-Women-Kurtas-4581578637795064-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11157096/2020/1/10/180bae43-5054-476c-9f03-f972f10d0cde1578637796655-Taavi-Women-Kurtas-4581578637795064-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11157096/2020/1/10/a4aa24d9-bbd7-4fdb-8b02-fd50d9852d131578637796609-Taavi-Women-Kurtas-4581578637795064-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Varanga",
+      "name": "Women Green & Blue Printed Straight Kurta",
+      "price": {
+        "mrp": 2399,
+        "discount": 67,
+        "sp": 791
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+      "customer_rating": 4.1,
+      "product_details": [
+        "Green and Blue printed straight kurta with gotta patti detail, has a round neck, three-quarter sleeves, straight hem, button closure and side slits"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11361032/2020/1/23/16e231e9-2318-4646-b4ca-bbb2172495401579781338204-Varanga-sea-green-floral-printed-straight-kurta-with--gota-w-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11361032/2020/1/23/a36ca525-2d6a-472c-97c3-01efdc99acee1579781338160-Varanga-sea-green-floral-printed-straight-kurta-with--gota-w-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11361032/2020/1/23/0c522d2d-6e8b-40b3-91ac-e662043f45ee1579781338108-Varanga-sea-green-floral-printed-straight-kurta-with--gota-w-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11361032/2020/1/23/95aa6f95-9ab6-4ad3-9950-d2bf5c68d85b1579781338058-Varanga-sea-green-floral-printed-straight-kurta-with--gota-w-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11361032/2020/1/23/a4cfbe41-fcd0-4b47-a8c7-ebabc62298f61579781338006-Varanga-sea-green-floral-printed-straight-kurta-with--gota-w-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "See Designs",
+      "name": "Women Blue & White Khari Print Straight Kurta",
+      "price": {
+        "mrp": 1299,
+        "discount": 63,
+        "sp": 480
+      },
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL"],
+      "customer_rating": 4.1,
+      "product_details": [
+        "Blue and White khari printed straight kurta, has a mandarin collar, short sleeves, straight hem, button closure and multiple slits"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11519290/2020/2/25/19cf3192-3ca7-46a4-88e6-e5ae137995c01582624360192-See-Designs-Women-Blue--White-Printed-Straight-Kurta-1011582-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11519290/2020/2/25/b7a3a511-1bb1-423b-9628-dedc8f3885c91582624360108-See-Designs-Women-Blue--White-Printed-Straight-Kurta-1011582-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11519290/2020/2/25/fb6f9fe2-6428-4a9b-a45b-30311b190d2d1582624360046-See-Designs-Women-Blue--White-Printed-Straight-Kurta-1011582-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11519290/2020/2/25/f579addd-70d1-4a2e-ae2b-a57d651eb45b1582624359991-See-Designs-Women-Blue--White-Printed-Straight-Kurta-1011582-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11519290/2020/2/25/87a42e53-401c-45d2-8dc6-912d12cedbba1582624359931-See-Designs-Women-Blue--White-Printed-Straight-Kurta-1011582-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Ishin",
+      "name": "Women Red & Orange Bandhani Print Anarkali Kurta",
+      "price": {
+        "mrp": 4999,
+        "discount": 57,
+        "sp": 2149
+      },
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "customer_rating": 4.2,
+      "product_details": [
+        "Red, orange and pink bandhani printed anarkali kurta with gotta patti detailing, has a round neck, three-quarter sleeves, and flared hem"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12766966/2020/11/19/d1a4cc48-ff90-47ab-ad36-800743e83d641605767381033-Ishin-Womens-Rayon-Red-Bandhani-Print-Embellished-Anarkali-K-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12766966/2020/11/19/ea73063e-79e4-4552-8c13-c55bc589df4d1605767380982-Ishin-Womens-Rayon-Red-Bandhani-Print-Embellished-Anarkali-K-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12766966/2020/11/19/ab2466c0-2d12-4b38-8ff5-0d8b31c7e0a41605767380917-Ishin-Womens-Rayon-Red-Bandhani-Print-Embellished-Anarkali-K-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12766966/2020/11/19/79e800cf-691b-42a6-a05a-1a46f41ef1201605767380846-Ishin-Womens-Rayon-Red-Bandhani-Print-Embellished-Anarkali-K-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12766966/2020/11/19/3726f086-b91f-45b4-9756-59c9bbfe47d91605767380782-Ishin-Womens-Rayon-Red-Bandhani-Print-Embellished-Anarkali-K-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "ASHIKA",
+      "name": "Women Beige Solid Thread Work Pathani Kurta",
+      "price": {
+        "mrp": 1612,
+        "discount": 69,
+        "sp": 499
+      },
+      "sizes": ["S", "L", "XL", "2XL"],
+      "customer_rating": 4.2,
+      "product_details": [
+        "  Colour: beige",
+        "Shirt collar",
+        "Three-quarter, regular sleeves",
+        "Pathani shape with layered style",
+        "Thread work detail",
+        "Calf length with high-low hem",
+        "Machine weave regular cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15357054/2021/9/4/9ec8170b-ae58-4be6-81a1-359f227400371630753369040AHIKAWomenBeigeCheckedThreadWorkPathaniKurta1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15357054/2021/9/4/c7b15c5a-572a-4b50-9320-71a93615b6a61630753369181AHIKAWomenBeigeCheckedThreadWorkPathaniKurta2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15357054/2021/9/4/81c31b90-2176-401b-b5dc-c5714218353f1630753369507AHIKAWomenBeigeCheckedThreadWorkPathaniKurta3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15357054/2021/9/4/64a7877b-cf5c-4f80-8198-f9ab74bc9b871630753369622AHIKAWomenBeigeCheckedThreadWorkPathaniKurta4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15357054/2021/9/4/ed0b9a6e-648f-429e-bdbc-5e5eb51e5cc01630753369772AHIKAWomenBeigeCheckedThreadWorkPathaniKurta5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Cayman",
+      "name": "Women Beige Yoke Design Pure Cotton Bell Sleeves Straight Kurta",
+      "price": {
+        "mrp": 2395,
+        "discount": 50,
+        "sp": 1197
+      },
+      "sizes": ["S", "L", "XL", "2XL"],
+      "customer_rating": 4.5,
+      "product_details": [
+        "Beige yoke design straight kurta, has a round neck, three quarter bell sleeves, side slits, straight hem"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13881954/2021/3/25/fcffeb84-1292-4310-af5b-2cedeecfa5cd1616669344847-Cayman-Women-Beige-Yoke-Design-Pure-Cotton-Bell-Sleeves-Stra-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13881954/2021/3/25/c9c9f34c-7e97-4fd8-a381-d4adcc9c1bbc1616669344822-Cayman-Women-Beige-Yoke-Design-Pure-Cotton-Bell-Sleeves-Stra-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13881954/2021/3/25/18de5356-5cab-40c3-850e-ef51df4a1be01616669344798-Cayman-Women-Beige-Yoke-Design-Pure-Cotton-Bell-Sleeves-Stra-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13881954/2021/3/25/e104b471-1c8e-4833-baa1-733cf0e4ac771616669344776-Cayman-Women-Beige-Yoke-Design-Pure-Cotton-Bell-Sleeves-Stra-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13881954/2021/3/25/a51d4e10-9141-4670-923d-c00235dd1e261616669344754-Cayman-Women-Beige-Yoke-Design-Pure-Cotton-Bell-Sleeves-Stra-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Varanga",
+      "name": "Mustard Marigold Cotton Straight Kurta",
+      "price": {
+        "mrp": 2199,
+        "discount": 64,
+        "sp": 791
+      },
+      "sizes": ["XS", "S", "L", "XL", "2XL"],
+      "customer_rating": 4.5,
+      "product_details": [
+        "Beige yoke design straight kurta, has a round neck, three quarter bell sleeves, side slits, straight hem"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8529019/2019/1/23/5d6a8e02-0fa0-4770-82f5-6b52d9c983561548242338312-Varanga-mustard-printed-straight-kurta-6361548242336928-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8529019/2019/1/23/e1cc30d4-7f23-486c-a3a6-95fae9f206c51548242338295-Varanga-mustard-printed-straight-kurta-6361548242336928-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8529019/2019/1/23/e7cd8c1f-b2e2-412c-9a02-818cff6e7b241548242338277-Varanga-mustard-printed-straight-kurta-6361548242336928-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8529019/2019/1/23/bd99524b-03a9-4b28-b244-ca2520385e6a1548250280476-Varanga-Women-Yellow--Green-Printed-Straight-Kurta-735154825-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8529019/2019/1/23/a6a37406-b7d9-410a-a87e-91f306bdeffd1548250280453-Varanga-Women-Yellow--Green-Printed-Straight-Kurta-735154825-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Libas",
+      "name": "Women Peach-Coloured & White Pure Cotton Printed Kurta",
+      "price": {
+        "mrp": 1299,
+        "discount": 55,
+        "sp": 584
+      },
+      "sizes": ["XS", "S", "L", "XL", "2XL"],
+      "customer_rating": 4.2,
+      "product_details": [
+        "Colour: peach-coloured and white",
+        "Ethnic motifs printed",
+        "V-neck",
+        "Three-quarter, regular sleeves",
+        "Straight shape with regular style",
+        "Gotta patti detail",
+        "Calf length with straight hem",
+        "Machine weave regular cotton"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023638/2021/8/26/042b4e5f-9f69-43b4-8adf-4a531047870a1629979212564-Libas-Women-Peach-Coloured--White-Pure-Cotton-Printed-Kurta--1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023638/2021/8/26/ad23e333-9d56-4e1e-b499-b79eec7706981629979212552-Libas-Women-Peach-Coloured--White-Pure-Cotton-Printed-Kurta--2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023638/2021/8/26/144e2d4e-2f4d-432f-b457-a1886d2829fe1629979212541-Libas-Women-Peach-Coloured--White-Pure-Cotton-Printed-Kurta--3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023638/2021/8/26/5634dad0-5f24-4625-9356-665d8e97935a1629979212531-Libas-Women-Peach-Coloured--White-Pure-Cotton-Printed-Kurta--4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14023638/2021/8/26/84002557-39b9-4a82-a699-998a633e90a81629979212507-Libas-Women-Peach-Coloured--White-Pure-Cotton-Printed-Kurta--5.jpg"
+      ]
+    },
+    {
+      "brand_name": "Indo Era",
+      "name": "Women Magenta Geometric Printed Gotta Patti Kurta",
+      "price": {
+        "mrp": 2499,
+        "discount": 76,
+        "sp": 599
+      },
+      "sizes": ["XS", "S", "L", "XL", "2XL"],
+      "customer_rating": 4.1,
+      "product_details": [
+        "Colour: magenta",
+        "Geometric printed",
+        "Round neck",
+        "Three-quarter, regular sleeves",
+        "Straight shape with regular style",
+        "Gotta patti detail",
+        "Calf length with straight hem",
+        "Machine weave regular viscose rayon"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15262272/2021/10/13/eb0210d4-33f9-4ccd-9ad5-d9c45cec8fab1634109072840-Indo-Era-Wine-Foil-Printed-Straight-Kurta-1981634109072288-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15262272/2021/10/13/c470986b-623f-4096-9999-d0a82c460cff1634109072831-Indo-Era-Wine-Foil-Printed-Straight-Kurta-1981634109072288-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15262272/2021/10/13/1dc69c95-dd0f-4f5f-8995-e4e7a0d905351634109072824-Indo-Era-Wine-Foil-Printed-Straight-Kurta-1981634109072288-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15262272/2021/10/13/f525d1c5-2456-432e-ab65-f4c25d9ca69f1634109072815-Indo-Era-Wine-Foil-Printed-Straight-Kurta-1981634109072288-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15262272/2021/10/13/3c85c508-e6d3-4e73-812f-9a440e0ef7481634109072807-Indo-Era-Wine-Foil-Printed-Straight-Kurta-1981634109072288-5.jpg"
+      ]
+    },
+    {
+      "brand_name": "KSUT",
+      "name": "Women Black & Golden Yoke Design Straight Kurta",
+      "price": {
+        "mrp": 1799,
+        "discount": 58,
+        "sp": 755
+      },
+      "sizes": ["S", "L", "XL"],
+      "customer_rating": 4.4,
+      "product_details": [
+        "Black and Golden yoke design straight kurta, has a round neck, three-quarter sleeves, straight hem, and side slits"
+      ],
+      "images": [
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11626484/2020/3/12/415e3f46-ccd8-4559-9aa3-8b9295b74af11584010096618-KSUT-Women-Black--Gold-Toned-Yoke-Design-Straight-Kurta-7141-1.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11626484/2020/3/12/349cadeb-416f-497a-8575-bbdc4802be3e1584010096568-KSUT-Women-Black--Gold-Toned-Yoke-Design-Straight-Kurta-7141-2.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11626484/2020/3/12/4d90ed6f-0878-4d3e-b214-329c625e43151584010096508-KSUT-Women-Black--Gold-Toned-Yoke-Design-Straight-Kurta-7141-3.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11626484/2020/3/12/1810c7bb-6934-40c1-a724-7b016943fcb21584010096452-KSUT-Women-Black--Gold-Toned-Yoke-Design-Straight-Kurta-7141-4.jpg",
+        "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11626484/2020/3/12/2f0b4354-3b98-44b2-a27d-de27882df4f41584010096397-KSUT-Women-Black--Gold-Toned-Yoke-Design-Straight-Kurta-7141-5.jpg"
+      ]
+    }
+  ]
+}
