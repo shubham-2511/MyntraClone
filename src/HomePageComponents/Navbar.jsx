@@ -5,7 +5,7 @@ import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
-import { Link } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [item, setItem] = useState("");
