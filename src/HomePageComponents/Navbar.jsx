@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [item, setItem] = useState("");
-
   const style = {
     color: "rgb(151, 148, 148)",
     padding: "6px 14px",
@@ -47,7 +46,9 @@ const Navbar = () => {
       </div>
       <div className={styles.iconDiv}>
         <PersonOutlineIcon sx={iconStyle} />
-        <div className={styles.text}><Link to="/login">Profile</Link></div>
+        <div className={styles.text}>
+          <Link to="/login">Profile</Link>
+        </div>
       </div>
       <div className={styles.iconDiv}>
         <FavoriteBorderIcon sx={iconStyle} />

@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(253, 238, 237);
+  font-family: "WhitneySSm";
+}
+.parentDiv {
+  background-color: white;
+  width: 400px;
+  margin: auto;
+  margin-top: 2em;
+}
+.content_div {
+  padding: 36px 34px 0;
+}
+.login_signup_div {
+  color: #424553;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.or {
+  font-size: 18px;
+  font-weight: 500;
+}
+.login_para_div {
+  font-size: 15px;
+  font-weight: 300;
+  color: #8a8b8f;
+  padding-bottom: 5px;
+}
+.login_bold {
+  color: rgb(255, 63, 108);
+  font-size: 16px;
+}
+.login_button {
+  cursor: pointer;
+  background-color: #ff3f6c;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-size: 16px;
+  border: 0px solid #ff3f6c;
+  width: 100%;
+  margin: 10px 0 10px;
+  height: 2.4em;
+}
+.MuiTextField {
+  font-size: 14px;
+  width: 100%;
+}
+.valid_no {
+  font-size: 12px;
+  color: rgb(255, 166, 138);
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+.otp_input_box > input {
+  width: 20px;
+  height: 2.5em;
+  margin: 14px 14px 14px 0;
+}
+.otp_parentDiv {
+  background-color: white;
+  width: 320px;
+  margin: auto;
+  margin-top: 2em;
+  padding: 70px 40px 20px;
+}
+.otp_bold {
+  color: rgb(255, 63, 108);
+  font-size: 14px;
+}
+.otp_para {
+  font-size: 15px;
+  font-weight: 300;
+  color: #8a8b8f;
+  padding-bottom: 15px;
+}
+.otp_heading {
+  font-size: 20px;
+}
