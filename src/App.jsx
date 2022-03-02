@@ -1,10 +1,10 @@
-import "./App.css";
-import { ProductCard } from "./components/ProductCard";
+import './App.css';
+import AllRoutes from './Routes/AllRoutes';
 
 function App() {
   return (
-    <div className="App">
-      <ProductCard />
+    <div>
+      <AllRoutes />
     </div>
   );
 }
