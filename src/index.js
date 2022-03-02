@@ -5,13 +5,16 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { StyledEngineProvider } from "@mui/material/styles";
+import { AuthContextProvider } from "./Logincomponent/AuthContext";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <StyledEngineProvider injectFirst>
-        <App />
-      </StyledEngineProvider>
+      <AuthContextProvider>
+        <StyledEngineProvider injectFirst>
+          <App />
+        </StyledEngineProvider>
+      </AuthContextProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
