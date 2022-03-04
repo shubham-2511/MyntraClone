@@ -29,7 +29,7 @@ export const WomenKurti = () => {
       .catch((e) => console.log(e));
   };
   const handleFilters = (s) => {
-    fetch(`http://localhost:3020/women-kurtas-suits?brand_name=${s}`)
+    fetch(`https://myntradb.herokuapp.com/women-kurtas-suits?brand_name=${s}`)
       .then((r) => r.json())
       .then((r) => {
         setKurti(r);
