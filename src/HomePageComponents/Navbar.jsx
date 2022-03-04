@@ -58,6 +58,7 @@ const Navbar = () => {
         <ContentPasteIcon sx={iconStyle} />
         <div className={styles.text}>Bag</div>
       </div>
+      
     </div>
   );
 };

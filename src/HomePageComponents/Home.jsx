@@ -7,18 +7,23 @@ import { Component6 } from './Component6'
 import Component7 from './Component7'
 import { Heading } from './Heading'
 import Navbar from './Navbar'
+import PopupComponent from './PopupComponent'
+import { Profile } from './Profile'
 
 export const Home = () => {
   return (
     <div>
         <Navbar />
-        {/* <Heading title="EXPLORE TOP BRANDS" /> */}
+        <Heading title="EXPLORE TOP BRANDS" />
+        <Profile />
+        <PopupComponent />
         <Component2 />
         <Component3 />
         <Component4 />
         <Component5 />
         <Component6 />
         <Component7 />
+
     </div>
   )
 }
