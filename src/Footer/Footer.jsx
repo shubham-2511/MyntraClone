@@ -1,13 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import GoogleApp from "../Images/Google.png";
 import AppStore from "../Images/app store.png";
 import AutorenewIcon from "@mui/icons-material/Autorenew";
 import AppsIcon from "@mui/icons-material/Apps";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import {Footer2} from "./Footer2";
 
 export const Footer = () => {
