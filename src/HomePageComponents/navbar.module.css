@@ -22,6 +22,10 @@
   padding: 30px 18px;
 }
 
+.link:hover {
+    border-bottom: 4px solid red;
+}
+
 .search {
   border: 1px solid rgb(223, 218, 218);
   margin: 20px;
