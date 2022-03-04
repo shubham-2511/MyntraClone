@@ -1,14 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './profile.module.css'
 
-export const Profile = () => {
+export const Profile = ({visible}) => {
+
+  const navigate = useNavigate();
+
+  const handelLogin = () => {
+    console.log("Login");
+    navigate('/login');
+  }
+
+  const [mouseOver, setMouseOver] = useState(false)
   return (
-    <div className={styles.container}>
+    <div className={visible || mouseOver ? styles.container: styles.displayNonde} onMouseEnter={() => setMouseOver(true)} onMouseLeave={() => setMouseOver(false)} >
         <div className={styles.heading}>Welcome</div>
         <div className={styles.head}>To access account and manage orders</div>
         <div className={styles.buttonContainer}>
 
-        <button className={styles.button}>LOGIN / SIGNUP</button>
+        <button className={styles.button} onClick={() => handelLogin()}>LOGIN / SIGNUP</button>
         </div>
         <ul>
             <li className={styles.listItem}>Orders</li>

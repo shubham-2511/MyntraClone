@@ -1,5 +1,5 @@
 import { Box } from "@mui/system";
-import React from "react";
+import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./popup.module.css";
 
@@ -7,7 +7,7 @@ const Head = ({ color, title }) => {
   return <li className={styles.item} style={{ color, fontWeight: "bold", paddingTop: "20px" }}>{title}</li>;
 };
 
-const PopupComponent = () => {
+const PopupComponent = ({isVisible}) => {
 
   const navigate = useNavigate();
 
@@ -19,9 +19,11 @@ const PopupComponent = () => {
     navigate("/men-jeans");
   }
 
+  const [mouseOver, setMouseOver] = useState(false);
+
   return (
     <Box>
-    <div className={styles.outerContainer}>
+    <div onMouseEnter={() => setMouseOver(true) } onMouseLeave={() => setMouseOver(false)} className={ (isVisible || mouseOver) ? styles.outerContainer : styles.displayNone}>
       <div className={styles.innerContainer}>
         <ul className={styles.list}>
           <Head color="red" title="Topware" />
