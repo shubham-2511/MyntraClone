@@ -4,8 +4,6 @@ import SearchIcon from "@mui/icons-material/Search";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
-// import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
-import { Link } from "react-router-dom";
 import { Profile } from "./Profile";
 import PopupComponent from "./PopupComponent";
 
