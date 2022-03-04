@@ -56,7 +56,9 @@ const Navbar = () => {
       </div>
       <div className={styles.iconDiv}>
         <ContentPasteIcon sx={iconStyle} />
-        <div className={styles.text}>Bag</div>
+        <div className={styles.text}>
+          <Link to="/cart">Bag</Link>
+        </div>
       </div>
     </div>
   );
