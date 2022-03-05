@@ -24,7 +24,7 @@ export const Login = () => {
         }
         else {
             //history.push("/Otp", { mobileNo })
-            navigate("/Otp", { mobileNo })
+            navigate("/Otp")
 
         }
     }

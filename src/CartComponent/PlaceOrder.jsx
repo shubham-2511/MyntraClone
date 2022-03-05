@@ -2,8 +2,16 @@ import React from 'react'
 import styles from "./placeorder.module.css"
 import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+import { useNavigate } from 'react-router-dom';
 
 export const PlaceOrder = () => {
+    const navigate = useNavigate()
+    const handleClick = () => {
+        console.log(1)
+        navigate("/payment")
+
+
+    }
     return (
         <div className={styles.main_div}>
             <h4 className={styles.heading1}>COUPONS</h4>
@@ -48,7 +56,7 @@ export const PlaceOrder = () => {
                         <p style={{ textAlign: "right" }}><CurrencyRupeeIcon style={{ width: "12", height: "13", marginTop: "1px" }} />6,293</p>
                     </div>
                 </div>
-                <button className={styles.final_place_order}>PLACE ORDER</button>
+                <button onClick={handleClick} className={styles.final_place_order}>PLACE ORDER</button>
             </div>
         </div >
     )

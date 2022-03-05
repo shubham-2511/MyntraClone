@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { styled, Box } from '@mui/system';
+import { styled, Box, width, color } from '@mui/system';
 import ModalUnstyled from '@mui/base/ModalUnstyled';
 import styles from "./address.module.css"
+import { AuthContext } from '../Logincomponent/AuthContext';
 
 const StyledModal = styled(ModalUnstyled)`
   position: fixed;
@@ -39,6 +40,8 @@ export default function ModalUnstyledDemo() {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+    const { address, setAddress } = React.useContext(AuthContext)
+
 
     return (
         <div>
@@ -53,8 +56,9 @@ export default function ModalUnstyledDemo() {
                 BackdropComponent={Backdrop}
             >
                 <Box sx={style}>
-                    <h2 id="unstyled-modal-title">Text in a modal</h2>
-                    <p id="unstyled-modal-description">Aliquid amet deserunt earum!</p>
+                    <input style={{ height: "3em", width: "100%", margin: "12px" }} type="text" placeholder="Enter your Address" value={address} onChange={(e) => setAddress(e.currentTarget.value)}></input>
+                    <br />
+                    <button style={{ height: "3em", width: "100%", backgroundColor: "#ff3f6c", color: "white", border: "3px solid #ff3f6c", margin: "12px" }}>ADD ADDRESS</button>
                 </Box>
             </StyledModal>
         </div>
