@@ -18,6 +18,7 @@ import {
   getProductError,
   getProductLoading,
 } from "../Store/Products/actions";
+import Navbar from "../HomePageComponents/Navbar";
 
 export const WomenKurti = () => {
   const [brandName, setBrandName] = useState([]);
@@ -67,6 +68,7 @@ export const WomenKurti = () => {
   };
   return (
     <>
+      <Navbar />
       {loading ? (
         <div style={{ width: "100px", margin: "auto" }}>
           <CircularProgress />

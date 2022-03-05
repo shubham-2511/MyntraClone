@@ -9,6 +9,7 @@ import {
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import Navbar from "../HomePageComponents/Navbar";
 import {
   getJeansDiscount,
   getJeansFiltered,
@@ -65,6 +66,7 @@ export const MenJeans = () => {
   };
   return (
     <>
+      <Navbar />
       {loading ? (
         <div style={{ width: "100px", margin: "auto" }}>
           <CircularProgress />
