@@ -7,6 +7,7 @@ import {
   GET_KURTI_SUCESS,
   GET_PRODUCT_ERROR,
   GET_PRODUCT_LOADING,
+  GET_SEARCH,
   GET_SHIRTS_DISCOUNT,
   GET_SHIRTS_FILTERED,
   GET_SHIRTS_SUCESS,
@@ -71,5 +72,10 @@ export const getShirtsDiscount = (data) => ({
 });
 export const getShirtsFiltered = (data) => ({
   type: GET_SHIRTS_FILTERED,
+  payload: data,
+});
+
+export const getSearch = (data) => ({
+  type: GET_SEARCH,
   payload: data,
 });
