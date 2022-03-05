@@ -5,7 +5,7 @@ import ModalUnstyledDemo from './Pincode'
 export const AddressComponent = () => {
     return (
         <div className={styles.address}>
-            <h2 className={styles.heading}>Deliver to :250601</h2>
+            <h2 className={styles.address_heading}>Deliver to :250601</h2>
             <ModalUnstyledDemo />
         </div>
     )

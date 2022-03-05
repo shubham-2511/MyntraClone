@@ -45,7 +45,7 @@
   padding: 0px 12px 0px 20px;
   position: relative;
   border-radius: 4px;
-  margin: 25px 25px 0px 5px;
+  margin: 25px 10px 0px 5px;
 }
 .gifting_childdiv {
   font-size: 12px;
@@ -75,5 +75,40 @@
   font-weight: 650;
   color: #535766;
   text-transform: uppercase;
-  margin: 30px 0px 0px 5px;
+  margin: 25px 0px 0px 5px;
+}
+.price_para_div {
+  margin: 20px 10px 0px 5px;
+}
+.price_detail {
+  color: #282c3f;
+  margin-bottom: 12px;
+  line-height: 16px;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.total_price_detail {
+  color: #282c3f;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  line-height: 16px;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  font-weight: 700;
+}
+.final_place_order {
+  border: 1px solid #ff3f6c;
+  border-radius: 2px;
+  margin-right: 0;
+  color: white;
+  background-color: #ff3f6c;
+  font-size: 13px;
+  font-weight: 550;
+  margin: 1.7em 5px 0px 5px;
+  text-align: center;
+  width: 96%;
+  height: 3.4em;
+  margin-bottom: 2em;
 }

@@ -1,15 +1,14 @@
-body {
+.cart_body {
   /* background-color: white; */
   font-family: Whitney, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
 }
-.mainDiv {
+.cart_mainDiv {
   background-color: white;
   position: static;
   width: 75%;
   margin: auto;
-  margin-top: 7em;
-  border: 1px solid black;
+  margin-top: 3em;
   display: grid;
   grid-template-columns: 58% 40%;
   column-gap: 2%;

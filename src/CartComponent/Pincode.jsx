@@ -42,7 +42,7 @@ export default function ModalUnstyledDemo() {
 
     return (
         <div>
-            <button type="button" onClick={handleOpen} className={styles.pincodeButton}>
+            <button type="button" onClick={handleOpen} className={styles.address_pincodeButton}>
                 CHANGE ADDRESS
             </button>
             <StyledModal

@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from './AuthContext';
-import Navbar from '../HomePageComponents/Navbar';
+import LoginNavbar from './LoginNavbar';
 
 //import { border, style } from '@mui/system';
 
@@ -29,12 +29,12 @@ export const Login = () => {
         }
     }
     return (
-        <div className={styles.body}>
-            <Navbar />
-            <div className={styles.parentDiv}>
+        <div className={styles.login_body}>
+            <LoginNavbar />
+            <div className={styles.login_parentDiv}>
                 <img width="100%" src='https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2021/12/29/e0f67808-f8b9-42b0-80ae-805fdf745cad1640802248099-Banner_Login-Landing-page--1-.jpg' alt='loginimg' />
-                <div className={styles.content_div}>
-                    <div className={styles.login_signup_div}>Login <span className={styles.or}>or</span> Signup</div>
+                <div className={styles.login_content_div}>
+                    <div className={styles.login_signup_div}>Login <span className={styles.login_or}>or</span> Signup</div>
                     <div>
                         <TextField
                             className={styles.MuiTextField}
@@ -52,7 +52,7 @@ export const Login = () => {
                                 startAdornment: <InputAdornment position="start">+91 |</InputAdornment>,
                             }}
                         />
-                        <p id="para" className={styles.valid_no}></p>
+                        <p id="para" className={styles.login_valid_no}></p>
 
 
                     </div>

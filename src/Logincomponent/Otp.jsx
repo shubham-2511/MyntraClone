@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
-import Navbar from '../HomePageComponents/Navbar'
+import LoginNavbar from './LoginNavbar'
 import { AuthContext } from './AuthContext'
 import styles from "./Otp.module.css"
 
@@ -59,8 +59,8 @@ export const Otp = () => {
     }
 
     return (!auth) ? (
-        <div>
-            <Navbar />
+        <div className={styles.otp_body}>
+            <LoginNavbar />
             <div className={styles.otp_parentDiv}>
                 <img width="100px" height="100px" src='https://constant.myntassets.com/pwa/assets/img/3a438cb4-c9bf-4316-b60c-c63e40a1a96d1548071106233-mobile-verification.jpg' alt='otp_img' />
                 <div>
