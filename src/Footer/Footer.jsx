@@ -9,6 +9,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import {Footer2} from "./Footer2";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -24,7 +25,7 @@ export const Footer = () => {
           <p>Gift Cards</p>
           <p>Myntra Insider New</p>
         </div>
-        <div className="footer--row">
+        <div className="footer-row">
           <h3>USEFUL LINKS</h3>
           <p>Contact Us</p>
           <p>FAQ</p>
@@ -37,7 +38,7 @@ export const Footer = () => {
           <p>Whitehat</p>
           <p>Site Map</p>
         </div>
-        <div className="footer--row">
+        <div className="footer-row">
           <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
           <div className="app">
             <img
@@ -50,13 +51,13 @@ export const Footer = () => {
           </div>
           <h3 className="social">KEEP IN TOUCH</h3>
           <div>
-            {/* <FacebookIcon className="social1"></FacebookIcon>
-            <TwitterIcon className="social1"></TwitterIcon>
-            <YouTubeIcon className="social1"></YouTubeIcon>
-            <InstagramIcon className="social1"></InstagramIcon> */}
+            <a href="https://www.facebook.com/" target="_blank"><FacebookIcon className="social1"></FacebookIcon></a>
+            <a href="https://twitter.com/" target="_blank"><TwitterIcon className="social1"></TwitterIcon></a>
+            <a href="https://www.youtube.com/" target="_blank"><YouTubeIcon className="social1"></YouTubeIcon></a>
+            <a href="https://www.instagram.com/" target="_blank"><InstagramIcon className="social1"></InstagramIcon></a>
           </div>
         </div>
-        <div className="footer--row">
+        <div className="footer-row">
           <div className="que">
             <AppsIcon />
             <p className="quality">

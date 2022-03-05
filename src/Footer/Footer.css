@@ -5,7 +5,7 @@
     justify-content: space-around;
 }
 
-.footer--row{
+.footer-row{
     margin-left: 40px;
 }
 
@@ -36,7 +36,6 @@ h3{
 .quality{
     font-size: 18px;
     color: rgb(95, 94, 94);
-
 }
 
 .footer2{
@@ -46,7 +45,6 @@ h3{
 .break{
     margin-left: 10%;
     margin-right: 10%;
-    
 }
 
 .coteagry{

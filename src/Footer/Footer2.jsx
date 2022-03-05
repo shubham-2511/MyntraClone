@@ -5,14 +5,10 @@ export const Footer2 = () => {
     <div className="footer2">
       <hr className="break" />
       <p className="coteagry">
-        Makeup | Dresses For Girls | T-Shirts | Sandals Headphones | Babydolls |
-        Blazers For Men | Handbags | Ladies Watches | Bags | Sport Shoes |
-        Reebok Shoes | Puma Shoes | Boxers | Wallets |Tops | Earrings | Fastrack
-        Watches | Kurtis | Nike | Smart Watches | Titan Watches | Designer
-        |Blouse | Gowns | Rings | Cricket Shoes | Forever 21 Eye Makeup | Photo
-        | Frames | Punjabi Suits | Bikini Myntra Fashion Show Lipstick Saree
-        Watches | Dresses | Lehenga | Nike Shoes | Goggles Bras | Suit | Chinos
-        | Shoes | Adidas Shoes | Woodland Shoes | Jewellery | Designers Sarees
+      Peesafe | Myra | Neerus | Khadi Natural | La Senza | Wild Stone | Decathlon |  Koskii | Swisse |  Arrow |  Gucci | Philips | Jockey | Amster | Panit | Pantaloons | Men Pants|
+      Justice | League | Diesel | Manu | Sugar |  G Shock | Fossil | Nivea | Aristocrat | Lakme | Vega | Maybelline | Denver |  Shirts For Mens | Men Underwear | Kurta For Mens | Jockey Men Inner Wear |
+      Tissot | Jacket For Men | Men Hoodies | Jeans Pant | Lower For Men |Mens Printed Shirts | Jockey Underwear Men | Pajamas For Men | Men Overcoat | Mens Cotton Shorts | Jockey Shorts For Men |
+       Joggers For Men | Mens Cargo Shorts | Yelloe  Himalaya | Bose  Boat|
       </p>
       <hr />
       <center className="que2">
