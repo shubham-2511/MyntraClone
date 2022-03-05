@@ -9,12 +9,12 @@
   column-gap: 16em;
   border-radius: 4px;
 }
-.heading {
+.address_heading {
   font-size: 15px;
   color: #424553;
   margin: 20px 0px 16.5px 10px;
 }
-.pincodeButton {
+.address_pincodeButton {
   border: 1px solid #ff3f6c;
   border-radius: 4px;
   margin-right: 0;

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Navbar from '../HomePageComponents/Navbar'
+import LoginNavbar from './LoginNavbar'
 import styles from "./Password.module.css"
 import { TextField } from '@mui/material'
 import { AuthContext } from './AuthContext'
@@ -13,8 +13,8 @@ export const Password = () => {
 
     }
     return (!passwordAuth) ? (
-        <div>
-            <Navbar />
+        <div className={styles.password_body}>
+            <LoginNavbar />
             <div className={styles.password_parentDiv} >
                 <div>
                     <h2 className={styles.password_heading} >Login to Your Account</h2>
