@@ -1,7 +1,11 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import {SingleProductImage} from "../SingleProduct/SingleProductImage";
-import {SingleProductDetails} from "../SingleProduct/SingleProductDetails";
+import {SingleProductPage1} from "./SingleProductPage1";
+import {SingleProductPage2} from "./SingleProductPage2";
+import {SingleProductPage3} from "./SingleProductPage3";
+import {SingleProductPage4} from "./SingleProductPage4";
+import "./Product.css";
 
 export const SingleProduct = () => {
   const product = {
@@ -30,9 +34,7 @@ export const SingleProduct = () => {
         "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15140410/2021/11/10/8d665c7d-b5cb-49ae-9278-6bd4ee8b8cbf1636548599219-Tommy-Hilfiger-Men-Tshirts-7341636548598554-5.jpg",
       ],
     }
-  const [users, setUsers] = useState(product.images);
-  console.log(users);
-
+ 
   // useEffect(() => {
   //   setUsers(product);
   //   console.log(users);
@@ -40,11 +42,15 @@ export const SingleProduct = () => {
   return (
     <>
     <div className="products">
-      <div>
+      <div className="leftCon">
         <SingleProductImage image = {product.images}/>
       </div>
-      <div>
-        <SingleProductDetails />
+      <div className="rightCon">
+        <SingleProductPage1 brand = {product.brand_name} pname={product.name}
+        rating={product.customer_rating} />
+        <SingleProductPage2 price = {product.price}/>
+        <SingleProductPage3 />
+        <SingleProductPage4 details = {product.product_details}/>
       </div>
     </div>
     </>

@@ -1,0 +1,11 @@
+
+.img{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:10px;
+}
+
+.img :hover{
+    transform: scale(1.1);
+    /* filter: grayscale(0); */
+}
