@@ -1,10 +1,14 @@
 
 import AllRoutes from "./Routes/AllRoutes";
+import {Footer} from "./Footer/Footer.jsx";
+import {SingleProduct} from "./SingleProduct/SingleProduct";
 
 function App() {
   return (
     <div>
-      <AllRoutes />
+      {/* <AllRoutes />
+     <Footer /> */}
+     <SingleProduct />
     </div>
   );
 }
