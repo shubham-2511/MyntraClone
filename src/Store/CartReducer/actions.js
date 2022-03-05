@@ -2,6 +2,7 @@ import {
   GET_CART_ERROR,
   GET_CART_LOADING,
   GET_CART_SUCCESS,
+  REMOVE_CART_ITEM,
 } from "./actionTypes";
 
 export const getCartLoading = () => ({
@@ -15,4 +16,9 @@ export const getCartSuccess = (data) => ({
 
 export const getCartError = () => ({
   type: GET_CART_ERROR,
+});
+
+export const removeCartItem = (id) => ({
+  type: REMOVE_CART_ITEM,
+  payload: id,
 });

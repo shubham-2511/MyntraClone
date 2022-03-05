@@ -2,6 +2,7 @@ import {
   GET_CART_ERROR,
   GET_CART_LOADING,
   GET_CART_SUCCESS,
+  REMOVE_CART_ITEM,
 } from "./actionTypes";
 
 const init = {
@@ -25,10 +26,6 @@ export const cartReducer = (state = init, { type, payload }) => {
         ...state,
         loading: false,
         cart: payload,
-        mrp: state.cart.forEach((item) => (item.price.mrp += state.mrp)),
-        discountPrice: state.cart.forEach(
-          (item) => (item.sp.mrp += state.discountPrice)
-        ),
       };
     }
     case GET_CART_ERROR: {
@@ -38,7 +35,13 @@ export const cartReducer = (state = init, { type, payload }) => {
         error: true,
       };
     }
-
+    case REMOVE_CART_ITEM: {
+      return {
+        ...state,
+        loading: false,
+        cart: state.cart.filter((item) => item.id !== payload),
+      };
+    }
     default: {
       return state;
     }
