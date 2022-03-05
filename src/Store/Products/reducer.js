@@ -7,6 +7,7 @@ import {
   GET_KURTI_SUCESS,
   GET_PRODUCT_ERROR,
   GET_PRODUCT_LOADING,
+  GET_SEARCH,
   GET_SHIRTS_DISCOUNT,
   GET_SHIRTS_FILTERED,
   GET_SHIRTS_SUCESS,
@@ -22,6 +23,7 @@ const init = {
   tops: [],
   shirt: [],
   jeans: [],
+  search: [],
 };
 export const productReducer = (state = init, { type, payload }) => {
   switch (type) {
@@ -113,6 +115,13 @@ export const productReducer = (state = init, { type, payload }) => {
         ...state,
         loading: false,
         tops: payload,
+      };
+    }
+    case GET_SEARCH: {
+      return {
+        ...state,
+        search: payload,
+        loading: false,
       };
     }
     case GET_PRODUCT_ERROR: {
