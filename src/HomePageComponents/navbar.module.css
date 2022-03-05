@@ -21,6 +21,7 @@
     Helvetica, Arial, sans-serif;
   font-weight: bold;
   padding: 30px 18px;
+  cursor: pointer;
 }
 
 .link:hover {

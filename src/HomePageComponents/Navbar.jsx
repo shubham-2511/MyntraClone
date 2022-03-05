@@ -8,12 +8,15 @@ import { Profile } from "./Profile";
 import PopupComponent from "./PopupComponent";
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from "react-redux";
+import PopupComponentWomen from "./PopupComponentWomen";
 
 
 const Navbar = () => {
   const [item, setItem] = useState("");
 
   const numberOfItems = useSelector(state => state.bag.length);
+
+  const isLoggedIn = useSelector(state => state.auth.status);
 
   const numberStyle = {
     display: "inline-block",
@@ -44,6 +47,8 @@ const Navbar = () => {
 
   const [isVisible, setIsVisible] = useState(false);
 
+  const [women, setWomen] = useState(false);
+
   const handelSearch = (e) => {
     setItem("");
   }
@@ -61,7 +66,8 @@ const Navbar = () => {
         alt="logo"
       />
       <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>MEN</div>
-      <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>WOMEN</div>
+      {/* <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>WOMEN</div> */}
+      <div className={styles.link} onMouseEnter={() => setWomen(true)} onMouseLeave={() => setWomen(false)}>WOMEN</div>
       <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>KIDS</div>
       <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>HOME & LIVING</div>
       <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>BEAUTY</div>
@@ -88,14 +94,25 @@ const Navbar = () => {
         <FavoriteBorderIcon sx={iconStyle} />
         <div className={styles.text}>Wishlist</div>
       </div>
+
+      {
+        isLoggedIn ? 
       <div className={styles.iconDiv1}>
         <ContentPasteIcon sx={iconStyle} />
         <p style={numberStyle}>{numberOfItems}</p>
         <div style={{textAlign: "left", paddingLeft: "10px"}} className={styles.text}>Bag</div>
+      </div> :
+      <div className={styles.iconDiv1}>
+        <ContentPasteIcon sx={iconStyle} />
+        <div style={{textAlign: "center"}} className={styles.text}>Bag</div>
       </div>
+
+      }
+
       
     </div>
     <Profile visible={visible} />
+    <PopupComponentWomen isVisible={women} />
     <PopupComponent isVisible={isVisible} />
     </>
   );

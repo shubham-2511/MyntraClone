@@ -9,6 +9,7 @@ import { Component6 } from './Component6'
 import Component7 from './Component7'
 import Navbar from './Navbar'
 import { getItemsToWishlist } from '../Store/WishlistReducer/actions'
+import { getItemsToBag } from '../Store/BagReducer/action'
 
 export const Home = () => {
 
@@ -16,6 +17,7 @@ export const Home = () => {
 
   useEffect(() => {
     dispatch(getItemsToWishlist());
+    dispatch(getItemsToBag());
   })
 
   return (

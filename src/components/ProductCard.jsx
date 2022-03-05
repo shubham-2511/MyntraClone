@@ -51,7 +51,7 @@ export const ProductCard = ({
     }, 1000);
   };
   return (
-    <div>
+    <div style={{zIndex: "50"}}>
       <Card
         onMouseEnter={() => setHoverOn(true)}
         onMouseLeave={() => setHoverOn(false)}
@@ -60,6 +60,7 @@ export const ProductCard = ({
           height: 400,
           textAlign: "left",
           borderRadius: "0px",
+          zIndex: "50"
         }}
       >
         <CardMedia

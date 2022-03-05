@@ -6,7 +6,7 @@
     position: fixed;
     right: 40px;
     top: 80px;
-    z-index: 2;
+    z-index: 4;
 }
 
 .displayNonde {
@@ -30,6 +30,7 @@
     list-style-type: none;
     padding-top: 12px;
     color: rgb(97, 96, 96);
+    cursor: pointer;
 }
 
 .button {
@@ -53,4 +54,12 @@
 .buttonContainer {
     padding-bottom: 12px;
     border-bottom: 1px solid rgb(231, 226, 226);
+}
+
+.new {
+    font-size: 10px;
+    margin-left: 6px;
+    padding: 2px 4px;
+    background-color: #fa2d5d;
+    color: white;
 }
