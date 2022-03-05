@@ -6,7 +6,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import { Profile } from "./Profile";
 import PopupComponent from "./PopupComponent";
-import { Link } from "react-router-dom"
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [item, setItem] = useState("");
@@ -26,25 +26,68 @@ const Navbar = () => {
 
   const handelSearch = (e) => {
     setItem("");
-  }
-
+  };
+  const navigate = useNavigate();
   return (
     <>
       <div className={styles.navbar}>
-        <img
-          className={styles.logo}
-          src="https://images.news18.com/ibnlive/uploads/2021/01/1611996262_ynt.jpeg?im=FitAndFill,width=1200,height=900"
-          alt="logo"
-        />
-        <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>MEN</div>
-        <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>WOMEN</div>
-        <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>KIDS</div>
-        <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>HOME & LIVING</div>
-        <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>BEAUTY</div>
-        <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>STUDIO</div>
+        <Link to="/">
+          <img
+            className={styles.logo}
+            src="https://images.news18.com/ibnlive/uploads/2021/01/1611996262_ynt.jpeg?im=FitAndFill,width=1200,height=900"
+            alt="logo"
+          />
+        </Link>
+        <div
+          className={styles.link}
+          onMouseEnter={() => setIsVisible(true)}
+          onMouseLeave={() => setIsVisible(false)}
+        >
+          MEN
+        </div>
+        <div
+          className={styles.link}
+          onMouseEnter={() => setIsVisible(true)}
+          onMouseLeave={() => setIsVisible(false)}
+        >
+          WOMEN
+        </div>
+        <div
+          className={styles.link}
+          onMouseEnter={() => setIsVisible(true)}
+          onMouseLeave={() => setIsVisible(false)}
+        >
+          KIDS
+        </div>
+        <div
+          className={styles.link}
+          onMouseEnter={() => setIsVisible(true)}
+          onMouseLeave={() => setIsVisible(false)}
+        >
+          HOME & LIVING
+        </div>
+        <div
+          className={styles.link}
+          onMouseEnter={() => setIsVisible(true)}
+          onMouseLeave={() => setIsVisible(false)}
+        >
+          BEAUTY
+        </div>
+        <div
+          className={styles.link}
+          onMouseEnter={() => setIsVisible(true)}
+          onMouseLeave={() => setIsVisible(false)}
+        >
+          STUDIO
+        </div>
         <div className={styles.searchContainer}>
           <div className={styles.search}>
-            <SearchIcon sx={style} onClick={(e) => handelSearch(e)} />
+            {/* <NavLink to="/search/q="> */}
+            <SearchIcon
+              sx={style}
+              onClick={() => navigate(`/search/${item}`)}
+            />
+            {/* </NavLink> */}
             <input
               className={styles.input}
               value={item}
@@ -54,7 +97,11 @@ const Navbar = () => {
             />
           </div>
         </div>
-        <div className={styles.iconDiv} onMouseEnter={() => setVisible(true)} onMouseLeave={() => setVisible(false)}>
+        <div
+          className={styles.iconDiv}
+          onMouseEnter={() => setVisible(true)}
+          onMouseLeave={() => setVisible(false)}
+        >
           <PersonOutlineIcon sx={iconStyle} />
           <div className={styles.text}>
             <div>Profile</div>
@@ -70,7 +117,6 @@ const Navbar = () => {
             <Link to="/cart">Bag</Link>
           </div>
         </div>
-
       </div>
       <Profile visible={visible} />
       <PopupComponent isVisible={isVisible} />
