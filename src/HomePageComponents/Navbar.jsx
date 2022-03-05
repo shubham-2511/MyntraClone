@@ -7,10 +7,27 @@ import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import { Profile } from "./Profile";
 import PopupComponent from "./PopupComponent";
 import { useNavigate } from 'react-router-dom';
+import { useSelector } from "react-redux";
 
 
 const Navbar = () => {
   const [item, setItem] = useState("");
+
+  const numberOfItems = useSelector(state => state.bag.length);
+
+  const numberStyle = {
+    display: "inline-block",
+    position: "relative",
+    bottom: "14px",
+    right: "8px",
+    backgroundColor: "#f16565",
+    borderRadius: "50%",
+    color: "white",
+    width: "20px",
+    fontSize: "14px",
+    padding: "2px"
+  }
+
   const style = {
     color: "rgb(151, 148, 148)",
     padding: "6px 14px",
@@ -18,7 +35,7 @@ const Navbar = () => {
   };
 
   const iconStyle = {
-    color: "rgb(122, 122, 122)",
+    color: "rgb(122, 122, 122)"
   };
 
   const navigate = useNavigate();
@@ -73,7 +90,8 @@ const Navbar = () => {
       </div>
       <div className={styles.iconDiv1}>
         <ContentPasteIcon sx={iconStyle} />
-        <div className={styles.text}>Bag</div>
+        <p style={numberStyle}>{numberOfItems}</p>
+        <div style={{textAlign: "left", paddingLeft: "10px"}} className={styles.text}>Bag</div>
       </div>
       
     </div>

@@ -2,25 +2,15 @@ import React, {useState, useEffect} from 'react'
 import Navbar from '../HomePageComponents/Navbar'
 import { WishListComponent } from './WishlistComponent';
 import styles from './wishlist.module.css';
+import { useSelector } from 'react-redux';
 
 
 export const Wishlist = () => {
 
-    const [kurti, setKurti] = useState([]);
+    const kurti = useSelector(state => state.wishlist);
 
-    const getProducts = () => {
-        fetch(`https://myntradb.herokuapp.com/women-kurtas-suits`)
-          .then((r) => r.json())
-          .then((r) => {
-            setKurti(r);
-          })
-          .catch((e) => console.log(e));
-      };
+    
 
-
-      useEffect(() => {
-        getProducts();
-      }, []);
 
       const style = {
         display: "grid",

@@ -4,8 +4,12 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { Button } from "@mui/material";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import { useDispatch } from "react-redux";
+import { addToWishlist } from "../Store/WishlistReducer/actions";
 
 export const ProductCard = ({
+  id,
+  product_details,
   images,
   name,
   brand_name,
@@ -13,6 +17,22 @@ export const ProductCard = ({
   sizes,
   customer_rating,
 }) => {
+
+  const dispatch = useDispatch();
+
+  const handelWatchlist = () => {
+    dispatch(addToWishlist({
+      id,
+      product_details,
+      images,
+      name,
+      brand_name,
+      price,
+      sizes,
+      customer_rating,
+    }))
+  }
+
   const imgRef = useRef();
   const [hoverOn, setHoverOn] = useState(false);
   const [img, setImg] = useState(images[0]);
@@ -63,6 +83,7 @@ export const ProductCard = ({
         {hoverOn ? (
           <CardContent sx={{ marginLeft: "1.5rem" }}>
             <Button
+              onClick={handelWatchlist}
               variant="outlined"
               size="small"
               startIcon={<FavoriteBorderIcon />}

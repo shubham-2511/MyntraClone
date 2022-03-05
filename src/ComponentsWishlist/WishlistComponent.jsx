@@ -4,8 +4,13 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import ClearIcon from '@mui/icons-material/Clear';
 import styles from './wishlist.module.css';
+import { useDispatch } from "react-redux";
+import { removeFromWishlist } from "../Store/WishlistReducer/actions";
+import { addToBag } from "../Store/BagReducer/action";
 
 export const WishListComponent = ({
+  id,
+  product_details,
   images,
   name,
   brand_name,
@@ -16,6 +21,8 @@ export const WishListComponent = ({
 
     const img = images[0];
 
+    const dispatch = useDispatch();
+
     const style = {
         position: "absolute",
         top: "10px",
@@ -24,6 +31,24 @@ export const WishListComponent = ({
         color: "grey",
         borderRadius: "50%",
         cursor: "pointer"
+    }
+
+    const handelRemove = () => {
+      dispatch(removeFromWishlist(id));
+    }
+
+    const handelAddToBag = () => {
+      dispatch(removeFromWishlist(id));
+      dispatch(addToBag({
+        id,
+        product_details,
+        images,
+        name,
+        brand_name,
+        price,
+        sizes,
+        customer_rating,
+      }));
     }
     
   return (
@@ -38,7 +63,7 @@ export const WishListComponent = ({
           marginBottom: "40px"
         }}
       >
-          <ClearIcon color="disabled" sx={style} fontSize="small" />
+          <ClearIcon onClick={handelRemove} color="disabled" sx={style} fontSize="small" />
         <CardMedia
           component="img"
           height="300"
@@ -63,7 +88,7 @@ export const WishListComponent = ({
               </div>
               <div>
                   
-        <button className={styles.button}>MOVE TO BAG</button>
+        <button onClick={handelAddToBag} className={styles.button}>MOVE TO BAG</button>
               </div>
             </div>
           </CardContent>

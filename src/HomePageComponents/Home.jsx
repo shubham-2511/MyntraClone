@@ -8,10 +8,15 @@ import { Component5 } from './Component5'
 import { Component6 } from './Component6'
 import Component7 from './Component7'
 import Navbar from './Navbar'
+import { getItemsToWishlist } from '../Store/WishlistReducer/actions'
 
 export const Home = () => {
 
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getItemsToWishlist());
+  })
 
   return (
     <div>
