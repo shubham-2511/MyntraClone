@@ -5,6 +5,7 @@
   background-color: white;
   position: fixed;
   top: 0px;
+  background-color: white;
 }
 
 .logo {
@@ -23,7 +24,7 @@
 }
 
 .link:hover {
-    border-bottom: 4px solid red;
+  border-bottom: 4px solid red;
 }
 
 .search {

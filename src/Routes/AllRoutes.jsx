@@ -10,6 +10,7 @@ import { WomenKurti } from "../components/WomenKurti";
 import { WomenTops } from "../components/WomenTops";
 import { MenJeans } from "../components/MenJeans";
 import { MenTshirts } from "../components/MenTshirts";
+import { Search } from "../components/Search";
 
 const AllRoutes = () => {
   return (
@@ -23,7 +24,9 @@ const AllRoutes = () => {
       <Route path="/women-tops" element={<WomenTops />} />
       <Route path="/men-jeans" element={<MenJeans />} />
       <Route path="/men-tshirts" element={<MenTshirts />} />
-    </Routes >
+      <Route path="/search/:q" element={<Search />} />
+      {/* <Route path="/search/q=" element={<Search />} /> */}
+    </Routes>
   );
 };
 
