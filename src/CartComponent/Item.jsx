@@ -34,7 +34,7 @@ export const Item = () => {
   }));
   const getCart = () => {
     dispatch(getCartLoading());
-    fetch("https://myntradb.herokuapp.com/cart")
+    fetch("http://localhost:3001/cart")
       .then((r) => r.json())
       .then((r) => dispatch(getCartSuccess(r)))
       .catch((e) => {
@@ -47,7 +47,7 @@ export const Item = () => {
   };
   const removeItem = (id) => {
     dispatch(getCartLoading());
-    fetch(`https://myntradb.herokuapp.com/cart/${id}`, {
+    fetch(`http://localhost:3001/cart/${id}`, {
       method: "DELETE",
     })
       .then((r) => r.json())
