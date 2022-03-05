@@ -4,6 +4,7 @@ export const AuthContext = createContext();
 
 export const AuthContextProvider = ({ children }) => {
   const [mobileNo, setMobileNo] = useState("");
+  const [address,setAddress] = useState("")
   var createOtp = Math.floor(1000 + Math.random() * 9000)
   //var createOtp = "1234"
   const [auth, setAuth] = useState(false)
@@ -46,6 +47,6 @@ export const AuthContextProvider = ({ children }) => {
       alert("Invalid Credential")
     }
   }
-  const value = { mobileNo, createOtp, setMobileNo, on_login, authentication, auth, passwordAuthentication, passwordAuth, checked, setChecked, onHandleChange }
+  const value = { mobileNo, createOtp, setMobileNo, on_login, authentication, auth, passwordAuthentication, passwordAuth, checked, setChecked, onHandleChange,address,setAddress }
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
