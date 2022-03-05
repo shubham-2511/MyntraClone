@@ -1,4 +1,5 @@
 import {
+  ADD_TO_BAG,
   GET_CART_ERROR,
   GET_CART_LOADING,
   GET_CART_SUCCESS,
@@ -21,4 +22,9 @@ export const getCartError = () => ({
 export const removeCartItem = (id) => ({
   type: REMOVE_CART_ITEM,
   payload: id,
+});
+
+export const addToBag = (data) => ({
+  type: ADD_TO_BAG,
+  payload: data,
 });
