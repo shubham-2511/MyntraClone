@@ -1,6 +1,7 @@
 import { createStore, applyMiddleware, compose, combineReducers } from "redux";
 import thunk from "redux-thunk";
 import { authReducer } from "./AuthReducer/reducer";
+import { cartReducer } from "./CartReducer/reducer";
 import { productReducer } from "./Products/reducer";
 import { wishlistReducer } from "./WishlistReducer/reducer";
 
@@ -10,6 +11,7 @@ const rootReducer = combineReducers({
   auth: authReducer,
   wishlist: wishlistReducer,
   product: productReducer,
+  cart: cartReducer,
 });
 export const store = createStore(
   rootReducer,
