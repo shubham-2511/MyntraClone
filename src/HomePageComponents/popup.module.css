@@ -3,6 +3,7 @@
     position: fixed;
     top: 80px;
     height: 100vh;
+    z-index: 3;
 }
 
 .displayNone {

@@ -8,6 +8,7 @@ import { WomenKurti } from "../components/WomenKurti";
 import { WomenTops } from "../components/WomenTops";
 import { MenJeans } from "../components/MenJeans";
 import { MenTshirts } from "../components/MenTshirts";
+import { Wishlist } from "../ComponentsWishlist/Wishlist";
 
 const AllRoutes = () => {
   return (
@@ -19,6 +20,11 @@ const AllRoutes = () => {
       <Route path="/women-tops" element={<WomenTops />} />
       <Route path="/men-jeans" element={<MenJeans />} />
       <Route path="/men-tshirts" element={<MenTshirts />} />
+      <Route path="/wishlist" element={<Wishlist /> } />
+      <Route path="/checkout/cart" element={<Wishlist /> } />
+      <Route path="/checkout/address" element={<Wishlist /> } />
+      <Route path="/cehckout/payment" element={<Wishlist /> } />
+
     </Routes>
   );
 };

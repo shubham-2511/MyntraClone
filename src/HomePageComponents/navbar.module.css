@@ -5,6 +5,7 @@
   background-color: white;
   position: fixed;
   top: 0px;
+  z-index: 4;
 }
 
 .logo {
@@ -32,10 +33,11 @@
   display: flex;
   border-radius: 4px;
   width: 360px;
+  justify-self: end;
 }
 
 .searchContainer {
-  flex-grow: 1;
+  margin-left: 90px;
 }
 
 .input {
@@ -55,4 +57,11 @@
   margin-top: 18px;
   width: 60px;
   text-align: center;
+}
+
+.iconDiv1 {
+  margin-top: 18px;
+  width: 60px;
+  text-align: center;
+  cursor: pointer;
 }

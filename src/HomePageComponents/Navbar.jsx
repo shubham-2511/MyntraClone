@@ -6,6 +6,8 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import { Profile } from "./Profile";
 import PopupComponent from "./PopupComponent";
+import { useNavigate } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [item, setItem] = useState("");
@@ -19,12 +21,18 @@ const Navbar = () => {
     color: "rgb(122, 122, 122)",
   };
 
+  const navigate = useNavigate();
+
   const [visible, setVisible] = useState(false);
 
   const [isVisible, setIsVisible] = useState(false);
 
   const handelSearch = (e) => {
     setItem("");
+  }
+
+  const goToWishlist = (e) => {
+    navigate("/wishlist");
   }
 
   return (
@@ -59,11 +67,11 @@ const Navbar = () => {
           <div>Profile</div>
         </div>
       </div>
-      <div className={styles.iconDiv}>
+      <div onClick={() => goToWishlist()} className={styles.iconDiv1}>
         <FavoriteBorderIcon sx={iconStyle} />
         <div className={styles.text}>Wishlist</div>
       </div>
-      <div className={styles.iconDiv}>
+      <div className={styles.iconDiv1}>
         <ContentPasteIcon sx={iconStyle} />
         <div className={styles.text}>Bag</div>
       </div>
