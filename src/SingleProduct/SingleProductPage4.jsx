@@ -5,7 +5,7 @@ export const SingleProductPage4 = ({ details }) => {
     <>
       <h2>PRODUCT DETAILS</h2>
       <br />
-      <div>
+      <div style={{ marginLeft: "20px" }}>
         <ul>
           {details.map((item) => {
             return <li>{item}</li>;

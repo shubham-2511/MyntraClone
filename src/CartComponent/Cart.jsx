@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { CartNavbar } from "./CartNavbar";
 import styles from "./Cart.module.css";
 import { AddressComponent } from "./AddressComponent";
@@ -21,6 +21,7 @@ export const Cart = () => {
           <Checked />
           <Item />
         </div>
+        <div className={styles.vertical}></div>
         <div>{!checked ? <Coupons /> : <PlaceOrder />}</div>
       </div>
     </div>

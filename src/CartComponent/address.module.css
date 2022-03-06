@@ -3,16 +3,16 @@
   margin: 3px;
   margin-top: 18px;
   width: 98%;
-  height: 3.7em;
   display: flex;
   flex-direction: row;
-  column-gap: 16em;
+
   border-radius: 4px;
 }
 .address_heading {
-  font-size: 15px;
+  font-size: 11px;
   color: #424553;
-  margin: 20px 0px 16.5px 10px;
+  margin: 14px 0px 14px 10px;
+  width: 60%;
 }
 .address_pincodeButton {
   border: 1px solid #ff3f6c;
@@ -24,4 +24,7 @@
   font-weight: 550;
   margin: 14px 0 14px 0;
   padding: 8px 9px 8px 9px;
+}
+.pin_div {
+  width: 40%;
 }

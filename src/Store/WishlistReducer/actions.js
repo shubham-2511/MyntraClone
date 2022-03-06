@@ -1,26 +1,40 @@
 import axios from "axios";
-import { GET_ITEMS_TO_WISHLIST } from "./actionTypes";
+import {
+  ADD_TO_WISHLIST,
+  GET_ITEMS_TO_WISHLIST,
+  REMOVE_FROM_WISHLIST,
+} from "./actionTypes";
 
-export const getItemsToWishlist = ({phone}) => async (dispatch) => {
-    // var data = await axios.get("https://tangy-watery-scion.glitch.me/todos4");
-    var data = fetch("https://tangy-watery-scion.glitch.me/todos4")
-    .then((r) =>{
-        return r.json();
-    })
-    .then((r) =>{
-        console.log(r)
-    })
-    // data = data.data;
+// export const getItemsToWishlist = () => async (dispatch) => {
+//   var data = await axios.get("https://myntradb.herokuapp.com/wishlist");
+//   data = data.data;
 
-    // console.log(data);
+//   console.log(data);
 
-    // data = data.filter((item) => item.phone === phone);
+//   dispatch({
+//     type: GET_ITEMS_TO_WISHLIST,
+//     payload: data,
+//   });
+// };
+export const getWishlist = (data) => ({
+  type: GET_ITEMS_TO_WISHLIST,
+  payload: data,
+});
+export const addToWishlist = (item) => async (dispatch) => {
+  var data = await axios.post("https://myntradb.herokuapp.com/wishlist", item);
+  dispatch({
+    type: ADD_TO_WISHLIST,
+    payload: item,
+  });
+};
 
-    // console.log(data[0].wishlist);
+export const removeFromWishlist = (id) => async (dispatch) => {
+  var data = await axios.delete(
+    "https://myntradb.herokuapp.com/wishlist/" + id
+  );
 
-    // dispatch({
-    //     type: GET_ITEMS_TO_WISHLIST,
-    //     payload: data[0].wishlist
-    // })
-}
-
+  dispatch({
+    type: REMOVE_FROM_WISHLIST,
+    payload: id,
+  });
+};

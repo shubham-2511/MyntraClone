@@ -10,6 +10,9 @@
   margin: auto;
   margin-top: 3em;
   display: grid;
-  grid-template-columns: 58% 40%;
+  grid-template-columns: 58% 1% 40%;
   column-gap: 2%;
+}
+.vertical{
+  border-left: 1px solid #dfdfe2;
 }

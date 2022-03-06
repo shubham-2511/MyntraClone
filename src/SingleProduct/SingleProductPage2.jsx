@@ -37,20 +37,31 @@ export const SingleProductPage2 = ({ price, tag, id }) => {
   };
   return (
     <>
-      <h2>
+      <span style={{ fontSize: "18px" }}>
         Rs.{price.sp}
-        <span className="realPrice">Rs.{price.mrp}</span>
-        <span className="productOffer"> {price.discount}</span>
-      </h2>
-      <Typography color="secondary" sx={{ my: 1 }}>
+        <span
+          style={{
+            textDecoration: "line-through",
+            color: "#282c3f",
+            marginLeft: "10px",
+          }}
+          className="realPrice"
+        >
+          Rs. {price.mrp}
+        </span>
+        <span className="productOffer" style={{ color: "orange" }}>
+          {" "}
+          ({price.discount} % OFF)
+        </span>
+      </span>
+      <Typography color="secondary" sx={{ my: 1, color: "#03a685" }}>
         inclusive of all taxes
       </Typography>
       <div>
         <Button
           variant="contained"
-          color="success"
           startIcon={<ShoppingCartIcon />}
-          sx={{ px: 10, py: 2, mr: 2 }}
+          sx={{ px: 10, py: 2, mr: 2, backgroundColor: "#ff3e6c" }}
           onClick={addItemToBag}
         >
           ADD TO CART
@@ -59,26 +70,12 @@ export const SingleProductPage2 = ({ price, tag, id }) => {
           variant="outlined"
           color="warning"
           startIcon={<FavoriteBorderIcon />}
-          sx={{ px: 7, py: 2, mr: 2 }}
+          sx={{ px: 7, py: 2, mr: 2, backgroundColor: "#fff" }}
         >
           WISHLIST
         </Button>
       </div>
 
-      <hr />
-      <div style={{ padding: "2rem" }}>
-        <h3>
-          Rs. 899 <span className="realPrice">Rs. 3599</span>
-          <span className="productOffer"> (75% OFF)</span>
-        </h3>
-        <p>
-          <span
-            style={{ color: "#ff3e6c", fontWeight: "bold", fontSize: "16px" }}
-          >
-            Traditional MALL
-          </span>
-        </p>
-      </div>
       <hr />
     </>
   );

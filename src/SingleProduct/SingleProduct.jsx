@@ -17,32 +17,6 @@ import {
 } from "../Store/Products/actions";
 import { Box, Card, CardMedia, CircularProgress } from "@mui/material";
 export const SingleProduct = () => {
-  const product = {
-    brand_name: "Tommy Hilfiger",
-    name: "Men Burgundy Brand Logo Embossed Pure Cotton T-shirt",
-    price: {
-      mrp: 1999,
-      discount: 50,
-      sp: 1199,
-    },
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    customer_rating: 4.6,
-    product_details: [
-      "Burgundy Tshirt for men",
-      "Brand logo embossed",
-      "Regular length",
-      "Round neck",
-      "Short, regular sleeves",
-      "Knitted cotton fabric",
-    ],
-    images: [
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15140410/2021/11/10/331c7234-a4e8-4122-85d8-a65cb6cc80241636548599253-Tommy-Hilfiger-Men-Tshirts-7341636548598554-1.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15140410/2021/11/10/6fc599b6-c2ac-4d54-8e6b-38531a7153d71636548599245-Tommy-Hilfiger-Men-Tshirts-7341636548598554-2.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15140410/2021/11/10/4e397da7-797e-45e3-bbd8-448911084bb01636548599236-Tommy-Hilfiger-Men-Tshirts-7341636548598554-3.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15140410/2021/11/10/3324dd0c-596e-4f8e-a998-f238e5d2c3341636548599228-Tommy-Hilfiger-Men-Tshirts-7341636548598554-4.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15140410/2021/11/10/8d665c7d-b5cb-49ae-9278-6bd4ee8b8cbf1636548599219-Tommy-Hilfiger-Men-Tshirts-7341636548598554-5.jpg",
-    ],
-  };
   const { tag, id } = useParams();
   const dispatch = useDispatch();
   const { loading, error, singleProduct } = useSelector((state) => ({
@@ -106,7 +80,7 @@ export const SingleProduct = () => {
                   id={id}
                   price={singleProduct[0].price}
                 />
-                <SingleProductPage3 />
+                <SingleProductPage3 price={singleProduct[0].price.mrp} />
                 <SingleProductPage4
                   details={singleProduct[0].product_details}
                 />

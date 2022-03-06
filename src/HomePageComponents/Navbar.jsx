@@ -6,10 +6,31 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import { Profile } from "./Profile";
 import PopupComponent from "./PopupComponent";
+import { useSelector } from "react-redux";
+import PopupComponentWomen from "./PopupComponentWomen";
+
 import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [item, setItem] = useState("");
+
+  const numberOfItems = useSelector((state) => state.bag.length);
+
+  const isLoggedIn = useSelector((state) => state.auth.status);
+
+  const numberStyle = {
+    display: "inline-block",
+    position: "relative",
+    bottom: "14px",
+    right: "8px",
+    backgroundColor: "#f16565",
+    borderRadius: "50%",
+    color: "white",
+    width: "20px",
+    fontSize: "14px",
+    padding: "2px",
+  };
+
   const style = {
     color: "rgb(151, 148, 148)",
     padding: "6px 14px",
@@ -20,14 +41,24 @@ const Navbar = () => {
     color: "rgb(122, 122, 122)",
   };
 
+  const navigate = useNavigate();
+
   const [visible, setVisible] = useState(false);
 
   const [isVisible, setIsVisible] = useState(false);
 
+  const [women, setWomen] = useState(false);
+
   const handelSearch = (e) => {
     setItem("");
   };
-  const navigate = useNavigate();
+
+  const goToWishlist = (e) => {
+    navigate("/wishlist");
+  };
+  const { cart } = useSelector((state) => ({
+    cart: state.cart.cart,
+  }));
   return (
     <>
       <div className={styles.navbar}>
@@ -45,10 +76,11 @@ const Navbar = () => {
         >
           MEN
         </div>
+        {/* <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>WOMEN</div> */}
         <div
-          className={styles.link}
-          onMouseEnter={() => setIsVisible(true)}
-          onMouseLeave={() => setIsVisible(false)}
+          className={styles.link1}
+          onMouseEnter={() => setWomen(true)}
+          onMouseLeave={() => setWomen(false)}
         >
           WOMEN
         </div>
@@ -107,18 +139,35 @@ const Navbar = () => {
             <div>Profile</div>
           </div>
         </div>
-        <div className={styles.iconDiv}>
+        <div className={styles.iconDiv} onClick={goToWishlist}>
           <FavoriteBorderIcon sx={iconStyle} />
           <div className={styles.text}>Wishlist</div>
         </div>
-        <div className={styles.iconDiv}>
-          <ContentPasteIcon sx={iconStyle} />
-          <div className={styles.text}>
-            <Link to="/cart">Bag</Link>
+        {isLoggedIn ? (
+          <div className={styles.iconDiv1} onClick={() => navigate("/cart")}>
+            <ContentPasteIcon sx={iconStyle} />
+            <p style={numberStyle}>{cart.length}</p>
+            <div
+              style={{ textAlign: "left", paddingLeft: "10px" }}
+              className={styles.text}
+            >
+              Bag
+            </div>
           </div>
-        </div>
+        ) : (
+          <div
+            className={styles.iconDiv1}
+            onClick={() => navigate("/emptycart")}
+          >
+            <ContentPasteIcon sx={iconStyle} />
+            <div style={{ textAlign: "center" }} className={styles.text}>
+              Bag
+            </div>
+          </div>
+        )}
       </div>
       <Profile visible={visible} />
+      <PopupComponentWomen isVisible={women} />
       <PopupComponent isVisible={isVisible} />
     </>
   );
