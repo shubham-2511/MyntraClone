@@ -11,6 +11,7 @@ import {
   GET_SHIRTS_DISCOUNT,
   GET_SHIRTS_FILTERED,
   GET_SHIRTS_SUCESS,
+  GET_SINGLE_PRODUCT,
   GET_TOPS_DISCOUNT,
   GET_TOPS_FILTERED,
   GET_TOPS_SUCESS,
@@ -24,6 +25,7 @@ const init = {
   shirt: [],
   jeans: [],
   search: [],
+  singleProduct: [],
 };
 export const productReducer = (state = init, { type, payload }) => {
   switch (type) {
@@ -129,6 +131,13 @@ export const productReducer = (state = init, { type, payload }) => {
         ...state,
         loading: false,
         error: true,
+      };
+    }
+    case GET_SINGLE_PRODUCT: {
+      return {
+        ...state,
+        singleProduct: [payload],
+        loading: false,
       };
     }
 

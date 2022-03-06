@@ -1,17 +1,18 @@
 .container {
-    margin: 54px 54px 0px 54px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+  margin: 54px 54px 0px 54px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 .container2 {
-    margin: 0px 54px 0px 54px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+  margin: 0px 54px 0px 54px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .image {
-    width: 18%;
-    cursor: pointer;
+  width: 18%;
+  cursor: pointer;
 }

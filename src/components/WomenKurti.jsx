@@ -4,7 +4,9 @@ import {
   FormControl,
   InputLabel,
   MenuItem,
+  Pagination,
   Select,
+  Stack,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
@@ -19,23 +21,27 @@ import {
   getProductLoading,
 } from "../Store/Products/actions";
 import Navbar from "../HomePageComponents/Navbar";
+import { Footer } from "../Footer/Footer";
 
 export const WomenKurti = () => {
   const [brandName, setBrandName] = useState([]);
   const [check, setCheck] = useState(false);
-  const [sort, setSort] = useState("");
+  const [sort, setSort] = useState("Recommended");
   let { loading, kurtis, error } = useSelector((state) => ({
     loading: state.product.loading,
     error: state.product.error,
     kurtis: state.product.kurti,
   }));
+  const [page, setPage] = useState(1);
   const dispatch = useDispatch();
   useEffect(() => {
     getProducts();
-  }, []);
+  }, [page]);
   const getProducts = () => {
     dispatch(getProductLoading());
-    fetch(`https://myntradb.herokuapp.com/women-kurtas-suits`)
+    fetch(
+      `https://myntradb.herokuapp.com/women-kurtas-suits?_page=${page}&_limit=10`
+    )
       .then((r) => r.json())
       .then((r) => {
         dispatch(getKurtiSucess(r));
@@ -46,9 +52,10 @@ export const WomenKurti = () => {
   };
   const handleFilters = (s) => {
     dispatch(getProductLoading());
-    let filteredKurtis = kurtis.filter((item) => item.brand_name === s);
-    dispatch(getKurtiFiltered(filteredKurtis));
-    console.log(filteredKurtis);
+    fetch(`https://myntradb.herokuapp.com/women-kurtas-suits?q=${s}`)
+      .then((r) => r.json())
+      .then((r) => dispatch(getKurtiFiltered(r)))
+      .catch((e) => dispatch(getProductError(e)));
   };
   const discount = (value) => {
     dispatch(getProductLoading());
@@ -97,6 +104,7 @@ export const WomenKurti = () => {
                   label="Sort By"
                   onChange={(e) => sorting(e.target.value)}
                 >
+                  <MenuItem value={sort}>{sort}</MenuItem>
                   <MenuItem value={"high"}>Rating High to Low</MenuItem>
                   <MenuItem value={"low"}>Rating Low to High</MenuItem>
                 </Select>
@@ -236,10 +244,26 @@ export const WomenKurti = () => {
           <div className={styles.grid}>
             {kurtis.map((item) => (
               <div key={item.id}>
-                <ProductCard {...item} />
+                <ProductCard item={item} />
               </div>
             ))}
+            <div
+              style={{
+                margin: "100px auto",
+                width: "500px",
+              }}
+            >
+              <Stack spacing={2}>
+                <Pagination
+                  count={10}
+                  variant="outlined"
+                  shape="rounded"
+                  onClick={() => setPage(page + 1)}
+                />
+              </Stack>
+            </div>
           </div>
+          <Footer />
         </div>
       )}
     </>

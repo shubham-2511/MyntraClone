@@ -11,6 +11,7 @@ import {
   GET_SHIRTS_DISCOUNT,
   GET_SHIRTS_FILTERED,
   GET_SHIRTS_SUCESS,
+  GET_SINGLE_PRODUCT,
   GET_TOPS_DISCOUNT,
   GET_TOPS_FILTERED,
   GET_TOPS_SUCESS,
@@ -77,5 +78,10 @@ export const getShirtsFiltered = (data) => ({
 
 export const getSearch = (data) => ({
   type: GET_SEARCH,
+  payload: data,
+});
+
+export const getSingleProduct = (data) => ({
+  type: GET_SINGLE_PRODUCT,
   payload: data,
 });

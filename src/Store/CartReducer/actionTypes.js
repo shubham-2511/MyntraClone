@@ -4,3 +4,6 @@ export const GET_CART_ERROR = "GET_CART_ERROR";
 
 // remove
 export const REMOVE_CART_ITEM = "REMOVE_CART_ITEM";
+
+//addToBag
+export const ADD_TO_BAG = "ADD_TO_BAG";

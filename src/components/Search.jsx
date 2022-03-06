@@ -15,9 +15,12 @@ import {
   FormControl,
   InputLabel,
   MenuItem,
+  Pagination,
   Select,
+  Stack,
 } from "@mui/material";
 import { Box } from "@mui/system";
+import { Footer } from "../Footer/Footer";
 export const Search = () => {
   let { q } = useParams();
   const [sort, setSort] = useState("");
@@ -157,10 +160,26 @@ export const Search = () => {
           <div className={styles.grid}>
             {search.map((item) => (
               <div key={item.id}>
-                <ProductCard {...item} />
+                <ProductCard item={item} />
               </div>
             ))}
+            <div
+              style={{
+                margin: "100px auto",
+                width: "500px",
+              }}
+            >
+              <Stack spacing={2}>
+                <Pagination
+                  count={10}
+                  variant="outlined"
+                  shape="rounded"
+                  // onClick={() => setPage(page + 1)}
+                />
+              </Stack>
+            </div>
           </div>
+          <Footer />
         </div>
       )}
     </>

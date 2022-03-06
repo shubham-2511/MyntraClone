@@ -153,7 +153,7 @@ export const Item = () => {
                     value={1}
                     label="Size"
                     className={styles.selectbox}
-                  //  onChange={handleChange}
+                    //  onChange={handleChange}
                   >
                     <MenuItem value={1}>1</MenuItem>
                     <MenuItem value={2}>2</MenuItem>
@@ -225,5 +225,5 @@ export const Item = () => {
         </div>
       )}
     </div>
-  )
+  );
 };

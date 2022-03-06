@@ -1,4 +1,5 @@
 import {
+  ADD_TO_BAG,
   GET_CART_ERROR,
   GET_CART_LOADING,
   GET_CART_SUCCESS,
@@ -40,6 +41,13 @@ export const cartReducer = (state = init, { type, payload }) => {
         ...state,
         loading: false,
         cart: state.cart.filter((item) => item.id !== payload),
+      };
+    }
+    case ADD_TO_BAG: {
+      return {
+        ...state,
+        loading: false,
+        cart: [...state.cart, payload],
       };
     }
     default: {

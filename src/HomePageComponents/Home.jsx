@@ -10,7 +10,7 @@ import { Component6 } from "./Component6";
 import Component7 from "./Component7";
 import { Heading } from "./Heading";
 import Navbar from "./Navbar";
-import PopupComponent from "./PopupComponent";
+import { Footer } from "../Footer/Footer";
 
 export const Home = () => {
   const dispatch = useDispatch();
@@ -31,6 +31,7 @@ export const Home = () => {
       <Component5 />
       <Component6 />
       <Component7 />
+      <Footer />
     </div>
   );
 };
