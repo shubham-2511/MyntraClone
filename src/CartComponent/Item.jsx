@@ -113,7 +113,7 @@ export const Item = () => {
                     <span
                       style={{
                         float: "right",
-                        marginLeft: "340px",
+                        marginLeft: "250px",
                         marginRight: "0px",
 
                         alignContent: "right",

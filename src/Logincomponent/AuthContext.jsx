@@ -1,14 +1,26 @@
+// import { Alert, Stack } from "@mui/material";
 import React, { createContext, useState } from "react";
 
 export const AuthContext = createContext();
 
 export const AuthContextProvider = ({ children }) => {
   const [mobileNo, setMobileNo] = useState("");
-  const [address,setAddress] = useState("")
+  const [address, setAddress] = useState("")
+  const [finalAddress, setFinalAddress] = useState("")
+  let [createCapche, setCapche] = useState(Math.floor(1000 + Math.random() * 9000))
+  const [enterCapche, setEnterCapche] = React.useState("")
+  const [authCapche, setAuthCapche] = React.useState(false)
   var createOtp = Math.floor(1000 + Math.random() * 9000)
   //var createOtp = "1234"
   const [auth, setAuth] = useState(false)
   const [passwordAuth, setPasswordAuth] = useState(false)
+
+  // const BasicAlerts = () => (
+  //   <Stack sx={{ width: '100%' }} spacing={2}>
+  //     <Alert severity="info">This is an info alert — check it out!</Alert>
+  //   </Stack>
+  // )
+
 
   const [checked, setChecked] = useState(false)
   const onHandleChange = (event) => {
@@ -17,8 +29,11 @@ export const AuthContextProvider = ({ children }) => {
   }
 
 
-  const on_login = () => {
 
+  const on_login = () => {
+    // // <Alert severity="info">`OTP is ${createOtp}`</Alert>
+    // BasicAlerts()
+    // console.log(BasicAlerts())
     alert(`OTP is ${createOtp}`)
 
   }
@@ -47,6 +62,24 @@ export const AuthContextProvider = ({ children }) => {
       alert("Invalid Credential")
     }
   }
-  const value = { mobileNo, createOtp, setMobileNo, on_login, authentication, auth, passwordAuthentication, passwordAuth, checked, setChecked, onHandleChange,address,setAddress }
+
+  const changeCapche = () => {
+    createCapche = Math.floor(1000 + Math.random() * 9000)
+    setCapche(createCapche)
+  }
+  const authenticateCapche = (capche) => {
+    if (createCapche.toString() === capche) {
+      console.log(1)
+      setAuthCapche(true)
+    }
+    else {
+      console.log(0)
+      alert("Please Enter Valid capche")
+      setAuthCapche(false)
+    }
+
+  }
+
+  const value = { mobileNo, createOtp, setMobileNo, on_login, authentication, auth, passwordAuthentication, passwordAuth, checked, setChecked, onHandleChange, address, setAddress, finalAddress, setFinalAddress, createCapche, setCapche, changeCapche, enterCapche, setEnterCapche, authCapche, authenticateCapche }
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };

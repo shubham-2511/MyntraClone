@@ -2,11 +2,11 @@ import React from 'react'
 import styles from "./placeorder.module.css"
 import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useSelector } from "react-redux";
 
 export const PlaceOrder = () => {
-    // const navigate = useNavigate()
+    const navigate = useNavigate()
 
     const { cart } = useSelector((state) => ({
         cart: state.cart.cart,
@@ -19,6 +19,9 @@ export const PlaceOrder = () => {
     //SP
     let priceDisc = cart.map((item) => item.price.mrp - item.price.sp);
     let final = priceDisc.reduce((prev, second) => prev + second, 0);
+    const handlePayment = () => {
+        navigate("/payment")
+    }
 
     return (
         <div className={styles.main_div}>
@@ -108,7 +111,7 @@ export const PlaceOrder = () => {
                         </p>
                     </div>
                 </div >
-                <button className={styles.final_place_order}>PLACE ORDER</button>
+                <button className={styles.final_place_order} onClick={handlePayment}>PLACE ORDER</button>
             </div >
         </div >
     );
