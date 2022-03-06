@@ -67,7 +67,7 @@ const Navbar = () => {
       />
       <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>MEN</div>
       {/* <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>WOMEN</div> */}
-      <div className={styles.link} onMouseEnter={() => setWomen(true)} onMouseLeave={() => setWomen(false)}>WOMEN</div>
+      <div className={styles.link1} onMouseEnter={() => setWomen(true)} onMouseLeave={() => setWomen(false)}>WOMEN</div>
       <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>KIDS</div>
       <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>HOME & LIVING</div>
       <div className={styles.link} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>BEAUTY</div>

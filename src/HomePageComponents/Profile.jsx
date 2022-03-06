@@ -1,15 +1,20 @@
 import React, {useState} from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { logoutUser } from '../Store/AuthReducer/actions';
 import styles from './profile.module.css'
 
 export const Profile = ({visible}) => {
 
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const handelLogin = () => {
-    console.log("Login");
     navigate('/login');
+  }
+
+  const handelLogout = () => {
+    dispatch(logoutUser());
   }
 
   const isLoggedIn = useSelector(state => state.auth.status);
@@ -43,6 +48,12 @@ export const Profile = ({visible}) => {
             <li className={styles.listItem}>Coupons</li>
             <li className={styles.listItem}>Saved Cards</li>
             <li className={styles.listItem}>Saved Addresses</li>
+            <li className={styles.listItem}></li>
+
+            {
+              isLoggedIn && <li className={styles.listItem} onClick={handelLogout}>Logout</li>
+            }
+            
         </ul>
     </div>
   )
