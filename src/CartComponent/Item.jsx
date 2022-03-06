@@ -34,7 +34,7 @@ export const Item = () => {
   }));
   const getCart = () => {
     dispatch(getCartLoading());
-    fetch("http://localhost:3001/cart")
+    fetch("https://myntradb.herokuapp.com/cart")
       .then((r) => r.json())
       .then((r) => dispatch(getCartSuccess(r)))
       .catch((e) => {
@@ -47,7 +47,7 @@ export const Item = () => {
   };
   const removeItem = (id) => {
     dispatch(getCartLoading());
-    fetch(`http://localhost:3001/cart/${id}`, {
+    fetch(`https://myntradb.herokuapp.com/cart/${id}`, {
       method: "DELETE",
     })
       .then((r) => r.json())
@@ -153,7 +153,7 @@ export const Item = () => {
                     value={1}
                     label="Size"
                     className={styles.selectbox}
-                  //  onChange={handleChange}
+                    //  onChange={handleChange}
                   >
                     <MenuItem value={1}>1</MenuItem>
                     <MenuItem value={2}>2</MenuItem>
@@ -225,5 +225,5 @@ export const Item = () => {
         </div>
       )}
     </div>
-  )
+  );
 };

@@ -1,11 +1,11 @@
-
-.img{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap:10px;
+.img {
+  /* display: grid;
+  grid-template-columns: auto auto; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.img :hover{
-    transform: scale(1.1);
-    /* filter: grayscale(0); */
+.img :hover {
+  transform: scale(1.05);
 }
