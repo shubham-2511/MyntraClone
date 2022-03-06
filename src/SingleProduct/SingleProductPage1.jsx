@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import Box from "@mui/material/Box";
 import StarIcon from "@mui/icons-material/Star";
 
-export const SingleProductPage1 = ({brand,pname,rating}) => {
+export const SingleProductPage1 = ({ brand, pname, rating }) => {
   return (
-    <>
-     <h1>{brand}</h1>
-      <p>{pname}</p>
+    <div className="font">
+      <h1 style={{ fontFamily: "sans-serif" }}>{brand}</h1>
+      <h6>{pname}</h6>
       <div>
         <Box
           sx={{
@@ -29,6 +29,6 @@ export const SingleProductPage1 = ({brand,pname,rating}) => {
         </Box>
         <hr />
       </div>
-    </>
-  )
-}
+    </div>
+  );
+};

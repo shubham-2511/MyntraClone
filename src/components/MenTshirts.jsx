@@ -4,11 +4,14 @@ import {
   FormControl,
   InputLabel,
   MenuItem,
+  Pagination,
   Select,
+  Stack,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Footer } from "../Footer/Footer";
 import Navbar from "../HomePageComponents/Navbar";
 import {
   getProductError,
@@ -21,22 +24,20 @@ import styles from "./Product.module.css";
 import { ProductCard } from "./ProductCard";
 
 export const MenTshirts = () => {
-  // const [tshirts, setTshirts] = useState([]);
+  const [page, setPage] = useState(1);
   const [brandName, setBrandName] = useState([]);
   const [check, setCheck] = useState(false);
-  const [sort, setSort] = useState("");
+  const [sort, setSort] = useState("Recommended");
   let { loading, tshirts, error } = useSelector((state) => ({
     loading: state.product.loading,
     error: state.product.error,
     tshirts: state.product.shirt,
   }));
   const dispatch = useDispatch();
-  useEffect(() => {
-    getProducts();
-  }, []);
+
   const getProducts = () => {
     dispatch(getProductLoading());
-    fetch(`https://myntradb.herokuapp.com/men-t-shirts`)
+    fetch(`https://myntradb.herokuapp.com/men-t-shirts?_page=${page}$_limit=10`)
       .then((r) => r.json())
       .then((r) => {
         dispatch(getShirtsSucess(r));
@@ -47,8 +48,10 @@ export const MenTshirts = () => {
   };
   const handleFilters = (s) => {
     dispatch(getProductLoading());
-    let filteredShirts = tshirts.filter((item) => item.brand_name === s);
-    dispatch(getShirtsFiltered(filteredShirts));
+    fetch(`https://myntradb.herokuapp.com/men-t-shirts?q=${s}`)
+      .then((r) => r.json())
+      .then((r) => dispatch(getShirtsFiltered(r)))
+      .catch((e) => dispatch(getProductError(e)));
   };
   const discount = (value) => {
     dispatch(getProductLoading());
@@ -65,6 +68,9 @@ export const MenTshirts = () => {
       setSort("low");
     }
   };
+  useEffect(() => {
+    getProducts();
+  }, [page]);
   return (
     <>
       <Navbar />
@@ -98,6 +104,7 @@ export const MenTshirts = () => {
                       label="Sort By"
                       onChange={(e) => sorting(e.target.value)}
                     >
+                      <MenuItem value={sort}>{sort}</MenuItem>
                       <MenuItem value={"high"}>Rating High to Low</MenuItem>
                       <MenuItem value={"low"}>Rating Low to High</MenuItem>
                     </Select>
@@ -240,10 +247,27 @@ export const MenTshirts = () => {
           <div className={styles.grid}>
             {tshirts.map((item) => (
               <div key={item.id}>
-                <ProductCard {...item} />
+                <ProductCard item={item} />
               </div>
             ))}
+
+            <div
+              style={{
+                margin: "100px auto",
+                width: "500px",
+              }}
+            >
+              <Stack spacing={2}>
+                <Pagination
+                  count={10}
+                  variant="outlined"
+                  shape="rounded"
+                  onClick={() => setPage(page + 1)}
+                />
+              </Stack>
+            </div>
           </div>
+          <Footer />
         </div>
       )}
     </>
