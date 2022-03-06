@@ -15,6 +15,9 @@ import { Wishlist } from "../ComponentsWishlist/Wishlist";
 import { Search } from "../components/Search";
 import { Payment } from "../CartComponent/Payment";
 import { SingleProduct } from "../SingleProduct/SingleProduct";
+import { Empty } from "../Logincomponent/Empty";
+import { EmptyCart } from "../Logincomponent/EmptyCart";
+import { Error } from "../CartComponent/Error";
 const AllRoutes = () => {
   return (
     <Routes>
@@ -34,6 +37,9 @@ const AllRoutes = () => {
 
       <Route path="/search/:q" element={<Search />} />
       <Route path="/payment" element={<Payment />} />
+      <Route path="/emptywishlist" element={<Empty />} />
+      <Route path="/emptycart" element={<EmptyCart />} />
+      <Route path="*" element={<Error />} />
       {/* <Route path="/productSingle/:tag/:id" element={<SingleProduct />} /> */}
       <Route path="/:tag/:id" element={<SingleProduct />} />
     </Routes>

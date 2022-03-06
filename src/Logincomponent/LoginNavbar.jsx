@@ -23,11 +23,11 @@ const LoginNavbar = () => {
 
   return (
     <div className={styles.login_navbar}>
-      <img
+      <Link to="/"><img
         className={styles.login_navbar_logo}
         src="https://images.news18.com/ibnlive/uploads/2021/01/1611996262_ynt.jpeg?im=FitAndFill,width=1200,height=900"
         alt="logo"
-      />
+      /></Link>
       <Link className={styles.login_navbar_link} to="/">MEN</Link>
       <Link className={styles.login_navbar_link} to="/">WOMEN</Link>
       <Link className={styles.login_navbar_link} to="/">KIDS</Link>
@@ -48,11 +48,11 @@ const LoginNavbar = () => {
       <div className={styles.login_navbar_icondiv}>
         <div>
           <FavoriteBorderIcon sx={iconStyle} fontSize="15" />
-          <div className={styles.login_navbar_text}>Wishlist</div>
+          <Link className={styles.login_navbar_text} to="/emptywishlist">Wishlist</Link>
         </div>
         <div>
           <ContentPasteIcon sx={iconStyle} fontSize="15" />
-          <div className={styles.login_navbar_text}>Bag</div>
+          <Link className={styles.login_navbar_text} to="/emptycart">Bag</Link>
         </div>
 
 
