@@ -4,9 +4,21 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { Button } from "@mui/material";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import { useDispatch } from "react-redux";
+import { addToWishlist } from "../Store/WishlistReducer/actions";
+
+
+
 import { Link, Navigate, useNavigate } from "react-router-dom";
 
 export const ProductCard = ({ item }) => {
+  
+  const dispatch = useDispatch();
+
+  const handelWatchlist = () => {
+    dispatch(addToWishlist(item))
+  }
+  
   const imgRef = useRef();
   const [hoverOn, setHoverOn] = useState(false);
   const [img, setImg] = useState(item.images[0]);
@@ -26,7 +38,7 @@ export const ProductCard = ({ item }) => {
   };
   const navigate = useNavigate();
   return (
-    <div>
+    <div style={{zIndex: "50"}}>
       <Card
         onMouseEnter={() => setHoverOn(true)}
         onMouseLeave={() => setHoverOn(false)}
@@ -35,6 +47,7 @@ export const ProductCard = ({ item }) => {
           height: 400,
           textAlign: "left",
           borderRadius: "0px",
+          zIndex: "50"
         }}
       >
         <Link to={`/${item.tag}/${item.id}`}>
@@ -63,6 +76,7 @@ export const ProductCard = ({ item }) => {
         {hoverOn ? (
           <CardContent sx={{ marginLeft: "1.5rem" }}>
             <Button
+              onClick={handelWatchlist}
               variant="outlined"
               size="small"
               startIcon={<FavoriteBorderIcon />}

@@ -5,6 +5,7 @@
   background-color: white;
   position: fixed;
   top: 0px;
+  z-index: 4;
   background-color: white;
 }
 
@@ -21,10 +22,26 @@
     Helvetica, Arial, sans-serif;
   font-weight: bold;
   padding: 30px 18px;
+  cursor: pointer;
 }
 
 .link:hover {
   border-bottom: 4px solid red;
+}
+
+.link1 {
+  display: inline-block;
+  color: rgb(87, 85, 85);
+  font-size: 14px;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding: 30px 18px;
+  cursor: pointer;
+}
+
+.link1:hover {
+    border-bottom: 4px solid orange;
 }
 
 .search {
@@ -33,10 +50,11 @@
   display: flex;
   border-radius: 4px;
   width: 360px;
+  justify-self: end;
 }
 
 .searchContainer {
-  flex-grow: 1;
+  margin-left: 90px;
 }
 
 .input {
@@ -56,4 +74,11 @@
   margin-top: 18px;
   width: 60px;
   text-align: center;
+}
+
+.iconDiv1 {
+  margin-top: 18px;
+  width: 60px;
+  text-align: center;
+  cursor: pointer;
 }

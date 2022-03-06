@@ -1,3 +1,5 @@
+
+import { getItemsToBag } from '../Store/BagReducer/action'
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { getItemsToWishlist } from "../Store/WishlistReducer/actions";
@@ -16,14 +18,14 @@ export const Home = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getItemsToWishlist({ phone: 6677889900 }));
-  }, []);
+    dispatch(getItemsToWishlist());
+    dispatch(getItemsToBag());
+  })
+
 
   return (
     <div>
       <Navbar />
-
-      <Heading title="EXPLORE TOP BRANDS" />
       <Component1 />
       <Component2 />
       <Component3 />

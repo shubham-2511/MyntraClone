@@ -1,13 +1,13 @@
-import { ADD_TO_WISHLIST, GET_ITEMS_TO_WISHLIST, REMOVE_FROM_WISHLIST } from "./actionTypes";
+import { ADD_TO_BAG, GET_ITEMS_TO_BAG, REMOVE_FROM_BAG } from "./actionTypes";
 
 
-export const wishlistReducer = (state = [], action) => {
+export const bagReducer = (state = [], action) => {
     switch( action.type ) {
-        case GET_ITEMS_TO_WISHLIST:
+        case GET_ITEMS_TO_BAG:
             return [...action.payload];
-        case ADD_TO_WISHLIST:
+        case ADD_TO_BAG:
             return [...state, action.payload]
-        case REMOVE_FROM_WISHLIST:
+        case REMOVE_FROM_BAG:
             state = state.filter(({id}) => id !== action.payload);
             return [...state]
         default:
