@@ -10,6 +10,8 @@ import { WomenKurti } from "../components/WomenKurti";
 import { WomenTops } from "../components/WomenTops";
 import { MenJeans } from "../components/MenJeans";
 import { MenTshirts } from "../components/MenTshirts";
+import { Wishlist } from "../ComponentsWishlist/Wishlist";
+
 import { Search } from "../components/Search";
 import { Payment } from "../CartComponent/Payment";
 import { SingleProduct } from "../SingleProduct/SingleProduct";
@@ -25,6 +27,11 @@ const AllRoutes = () => {
       <Route path="/women-tops" element={<WomenTops />} />
       <Route path="/men-jeans" element={<MenJeans />} />
       <Route path="/men-tshirts" element={<MenTshirts />} />
+      <Route path="/wishlist" element={<Wishlist /> } />
+      <Route path="/checkout/cart" element={<Wishlist /> } />
+      <Route path="/checkout/address" element={<Wishlist /> } />
+      <Route path="/cehckout/payment" element={<Wishlist /> } />
+
       <Route path="/search/:q" element={<Search />} />
       <Route path="/payment" element={<Payment />} />
       {/* <Route path="/productSingle/:tag/:id" element={<SingleProduct />} /> */}
