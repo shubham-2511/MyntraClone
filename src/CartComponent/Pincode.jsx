@@ -40,7 +40,13 @@ export default function ModalUnstyledDemo() {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    const { address, setAddress } = React.useContext(AuthContext)
+    const { address, setAddress, setFinalAddress } = React.useContext(AuthContext)
+    const handleAddress = () => {
+        setFinalAddress(address)
+        setAddress("")
+
+
+    }
 
 
     return (
@@ -58,7 +64,7 @@ export default function ModalUnstyledDemo() {
                 <Box sx={style}>
                     <input style={{ height: "3em", width: "100%", margin: "12px" }} type="text" placeholder="Enter your Address" value={address} onChange={(e) => setAddress(e.currentTarget.value)}></input>
                     <br />
-                    <button style={{ height: "3em", width: "100%", backgroundColor: "#ff3f6c", color: "white", border: "3px solid #ff3f6c", margin: "12px" }}>ADD ADDRESS</button>
+                    <button style={{ height: "3em", width: "100%", backgroundColor: "#ff3f6c", color: "white", border: "3px solid #ff3f6c", margin: "12px" }} onClick={handleAddress}>ADD ADDRESS</button>
                 </Box>
             </StyledModal>
         </div>
