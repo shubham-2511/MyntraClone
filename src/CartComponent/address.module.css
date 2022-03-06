@@ -1,0 +1,30 @@
+.address {
+  border: 1px solid #dfdfe2;
+  margin: 3px;
+  margin-top: 18px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 4px;
+}
+.address_heading {
+  font-size: 11px;
+  color: #424553;
+  margin: 14px 0px 14px 10px;
+  width: 60%;
+}
+.address_pincodeButton {
+  border: 1px solid #ff3f6c;
+  border-radius: 4px;
+  margin-right: 0;
+  background-color: white;
+  color: #ff3f6c;
+  font-size: 13px;
+  font-weight: 550;
+  margin: 14px 0 14px 0;
+  padding: 8px 9px 8px 9px;
+}
+.pin_div {
+  width: 40%;
+}

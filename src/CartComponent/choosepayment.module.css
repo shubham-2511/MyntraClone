@@ -1,0 +1,109 @@
+.choose_payment_div {
+  border: 1px solid #dfdfe2;
+  margin: 3px;
+  width: 98%;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 35% 60%;
+  column-gap: 5%;
+}
+.payment_mode {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.payment_mode_button {
+  width: 100%;
+  padding: 15px 0px 15px 10px;
+  border: 1px solid #eaeaec;
+  border-left: 5px solid #f4f4f5;
+  text-align: left;
+  display: flex;
+  border-right: 0px;
+}
+.payment_mode_select_button {
+  border: 1px solid #eaeaec;
+  border-left: 5px solid #ff3f6c;
+  color: hsl(346, 100%, 62%);
+  width: 100%;
+  padding: 15px 0px 15px 10px;
+  background-color: white;
+  text-align: left;
+  display: flex;
+  border-right: 0px;
+}
+.button_name {
+  margin-top: 3%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.main_heading_choosing_payment {
+  margin: 40px 0px 25px 10px;
+  font-weight: 600;
+}
+.para_cash {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 22px 0px 30px;
+}
+.capche_div {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  column-gap: 10%;
+}
+.capche_input {
+  height: 4em;
+  font-size: 15px;
+  font-style: inherit;
+  letter-spacing: 15px;
+  padding: 6px;
+  padding-left: 15px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-weight: 550;
+}
+.capche_button {
+  color: #ff3f6c;
+  border: 0px;
+  background-color: white;
+  margin-top: 2em;
+  font-size: 12px;
+  font-weight: 550;
+}
+.enter_capche {
+  width: 90%;
+  margin: 20px 0px 10px;
+  height: 10vh;
+}
+.placing_para {
+  width: 90%;
+  font-size: 12px;
+}
+.payment_place_order {
+  border: 1px solid #ff3f6c;
+  border-radius: 6px;
+  margin-right: 0;
+  color: white;
+  background-color: #ff3f6c;
+  font-size: 13px;
+  font-weight: 550;
+  margin: 40px 5px 0px 5px;
+  text-align: center;
+  width: 90%;
+  height: 4em;
+  margin-bottom: 2em;
+}
+.box {
+  background: #ff0099; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #493240,
+    #ff0099
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #493240,
+    #ff0099
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

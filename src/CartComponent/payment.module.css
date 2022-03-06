@@ -1,0 +1,64 @@
+.payment_mainDiv {
+  background-color: white;
+  position: static;
+  width: 75%;
+  margin: auto;
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 65% 1% 33%;
+  column-gap: 2%;
+  border-bottom: 1px solid #dfdfe2;
+}
+.gift_content {
+  border: 1px solid #dfdfe2;
+  margin: 3px;
+  margin-top: 18px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 4px;
+}
+.gift_content_para {
+  width: 75%;
+  margin: 24px 0 10px 0;
+  font-size: 13px;
+  font-weight: 550;
+}
+
+.gift_content_div {
+  margin-right: 0;
+  background-color: white;
+  color: #ff3f6c;
+  font-size: 13px;
+  font-weight: 550;
+  margin: 14px 0 14px 0;
+  padding: 8px 9px 8px 9px;
+}
+.img {
+  display: grid;
+  width: 90%;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.img_div {
+  background-color: white;
+  position: static;
+  width: 75%;
+  margin: auto;
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 65% 33%;
+  column-gap: 2%;
+  border-bottom: 1px solid #dfdfe2;
+}
+.img_para {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 550;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.vertical{
+  border-left: 1px solid #dfdfe2;
+}
