@@ -1,5 +1,4 @@
-
-import { getItemsToBag } from '../Store/BagReducer/action'
+import { getItemsToBag } from "../Store/BagReducer/action";
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { getItemsToWishlist } from "../Store/WishlistReducer/actions";
@@ -18,10 +17,9 @@ export const Home = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getItemsToWishlist());
+    // dispatch(getItemsToWishlist());
     dispatch(getItemsToBag());
-  })
-
+  });
 
   return (
     <div>

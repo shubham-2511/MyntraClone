@@ -56,7 +56,9 @@ const Navbar = () => {
   const goToWishlist = (e) => {
     navigate("/wishlist");
   };
-
+  const { cart } = useSelector((state) => ({
+    cart: state.cart.cart,
+  }));
   return (
     <>
       <div className={styles.navbar}>
@@ -142,9 +144,9 @@ const Navbar = () => {
           <div className={styles.text}>Wishlist</div>
         </div>
         {isLoggedIn ? (
-          <div className={styles.iconDiv1}>
+          <div className={styles.iconDiv1} onClick={() => navigate("/cart")}>
             <ContentPasteIcon sx={iconStyle} />
-            <p style={numberStyle}>{numberOfItems}</p>
+            <p style={numberStyle}>{cart.length}</p>
             <div
               style={{ textAlign: "left", paddingLeft: "10px" }}
               className={styles.text}
@@ -153,7 +155,10 @@ const Navbar = () => {
             </div>
           </div>
         ) : (
-          <div className={styles.iconDiv1}>
+          <div
+            className={styles.iconDiv1}
+            onClick={() => navigate("/emptycart")}
+          >
             <ContentPasteIcon sx={iconStyle} />
             <div style={{ textAlign: "center" }} className={styles.text}>
               Bag

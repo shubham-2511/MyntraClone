@@ -8,7 +8,7 @@ export const SingleProductPage1 = ({ brand, pname, rating }) => {
   return (
     <div className="font">
       <h1 style={{ fontFamily: "sans-serif" }}>{brand}</h1>
-      <h6>{pname}</h6>
+      <p style={{ fontSize: "18px", color: "gray" }}>{pname}</p>
       <div>
         <Box
           sx={{

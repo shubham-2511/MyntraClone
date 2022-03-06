@@ -1,24 +1,24 @@
-import React,{useState, useRef} from "react";
+import React, { useState, useRef } from "react";
 import DriveEtaIcon from "@mui/icons-material/DriveEta";
 import styles from "./SingleProductPage3.module.css";
 import Button from "@mui/material/Button";
-import Box from '@mui/material/Box';
-import Input from '@mui/material/Input';
-import Alert from '@mui/material/Alert';
+import Box from "@mui/material/Box";
+import Input from "@mui/material/Input";
+import Alert from "@mui/material/Alert";
 
-export const SingleProductPage3 = () => {
+export const SingleProductPage3 = ({ price }) => {
   const [pin, setPin] = useState();
-  const pinCheck = () =>{
-    if(pin.length < 6 ){
-        // console.log(pin.length, typeof(pin))
-    //  <Alert severity="error">Please enter a valid code</Alert>
+  const pinCheck = () => {
+    if (pin.length < 6) {
+      // console.log(pin.length, typeof(pin))
+      //  <Alert severity="error">Please enter a valid code</Alert>
       alert("Please enter a valid code");
     }
-  }
+  };
 
-  return ( 
+  return (
     <>
-      <div style={{ display: "flex", paddingTop: "2rem" }}>
+      <div style={{ display: "flex", paddingTop: "2rem", marginLeft: "20px" }}>
         <h3>DELIVERY OPTIONS</h3>
         <span>
           <DriveEtaIcon />
@@ -31,14 +31,17 @@ export const SingleProductPage3 = () => {
         }}
         noValidate
         // autoComplete="off"
-        border= '1px solid grey'
-        width = '300px'
+        border="1px solid grey"
+        width="300px"
       >
-        <Input type = "text" placeholder="Enter a PIN Code" onChange={(e) => setPin(e.currentTarget.value)} />
+        <Input
+          type="text"
+          placeholder="Enter a PIN Code"
+          onChange={(e) => setPin(e.currentTarget.value)}
+        />
         <Button onClick={() => pinCheck()}>Check</Button>
       </Box>
       <br />
-   
       <small>
         Please enter PIN code to check delivery time & Pay on Delivery
         Availability.
@@ -58,9 +61,9 @@ export const SingleProductPage3 = () => {
       <h2>BEST OFFERS</h2>
       <br />
       <h3>
-        Best Price: <span>Rs. 1029</span>
+        Best Price: <span>Rs. {price}</span>
       </h3>
-      <div>
+      <div style={{ marginLeft: "20px" }}>
         <ul>
           <li> Coupon code: NIGHTOWL200</li>
           <li>Coupon Discount: Rs. 200 off (check cart for final savings)</li>
