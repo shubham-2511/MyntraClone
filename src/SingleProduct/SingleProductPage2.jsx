@@ -41,7 +41,7 @@ export const SingleProductPage2 = ({ price, tag, id }) => {
         Rs.{price.sp}
         <span
           style={{
-            textDecoration: "line-through",
+            textDecoration: "line-through 2px solid black",
             color: "#282c3f",
             marginLeft: "10px",
           }}

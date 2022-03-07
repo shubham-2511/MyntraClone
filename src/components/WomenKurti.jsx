@@ -22,6 +22,7 @@ import {
 } from "../Store/Products/actions";
 import Navbar from "../HomePageComponents/Navbar";
 import { Footer } from "../Footer/Footer";
+import { loginUser } from "../Store/AuthReducer/actions";
 
 export const WomenKurti = () => {
   const [brandName, setBrandName] = useState([]);
@@ -73,6 +74,9 @@ export const WomenKurti = () => {
       setSort("low");
     }
   };
+  useEffect(() => {
+    dispatch(loginUser());
+  }, []);
   return (
     <>
       <Navbar />

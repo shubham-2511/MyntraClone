@@ -22,6 +22,7 @@ import {
 import styles from "./Product.module.css";
 import { ProductCard } from "./ProductCard";
 import { Footer } from "../Footer/Footer";
+import { loginUser } from "../Store/AuthReducer/actions";
 
 export const WomenTops = () => {
   const [brandName, setBrandName] = useState([]);
@@ -70,6 +71,9 @@ export const WomenTops = () => {
       setSort("low");
     }
   };
+  useEffect(() => {
+    dispatch(loginUser());
+  }, []);
   return (
     <>
       <Navbar />

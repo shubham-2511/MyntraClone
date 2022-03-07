@@ -46,7 +46,7 @@
   font-size: 14px;
 }
 .currency {
-  margin-left: 19.2em;
+  /* margin-left: 19.2em; */
   display: flex;
   flex-direction: row;
   column-gap: 0ch;
@@ -57,8 +57,11 @@
   margin: 1.5em 0px 0px 5px;
   font-size: 13px;
 }
+.total_para {
+  width: 80%;
+}
 .currency_total {
-  margin-left: 15.9em;
+  /* margin-left: 15.9em; */
   display: flex;
   flex-direction: row;
   column-gap: 0ch;

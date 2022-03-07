@@ -16,6 +16,7 @@ import {
   getSingleProduct,
 } from "../Store/Products/actions";
 import { Box, Card, CardMedia, CircularProgress } from "@mui/material";
+import { Footer } from "../Footer/Footer";
 export const SingleProduct = () => {
   const { tag, id } = useParams();
   const dispatch = useDispatch();
@@ -89,6 +90,7 @@ export const SingleProduct = () => {
           )
         )}
       </>
+      <Footer />
     </>
   );
 };

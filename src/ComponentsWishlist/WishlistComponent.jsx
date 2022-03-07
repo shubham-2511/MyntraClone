@@ -6,7 +6,7 @@ import ClearIcon from "@mui/icons-material/Clear";
 import styles from "./wishlist.module.css";
 import { useDispatch } from "react-redux";
 import { removeFromWishlist } from "../Store/WishlistReducer/actions";
-import { addToBag } from "../Store/BagReducer/action";
+import { addToBag } from "../Store/CartReducer/actions";
 import { getCartError, getCartLoading } from "../Store/CartReducer/actions";
 
 export const WishListComponent = ({
