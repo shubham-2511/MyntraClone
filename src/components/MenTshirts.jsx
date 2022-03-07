@@ -13,6 +13,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Footer } from "../Footer/Footer";
 import Navbar from "../HomePageComponents/Navbar";
+import { loginUser } from "../Store/AuthReducer/actions";
 import {
   getProductError,
   getProductLoading,
@@ -71,6 +72,9 @@ export const MenTshirts = () => {
   useEffect(() => {
     getProducts();
   }, [page]);
+  useEffect(() => {
+    dispatch(loginUser());
+  }, []);
   return (
     <>
       <Navbar />

@@ -6,7 +6,7 @@ import styles from "./profile.module.css";
 import { AuthContext } from "../Logincomponent/AuthContext";
 
 export const Profile = ({ visible }) => {
-  const { mobieNo, setMobileNo } = useContext(AuthContext);
+  const { mobileNo, setMobileNo, setAuth } = useContext(AuthContext);
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
@@ -15,12 +15,13 @@ export const Profile = ({ visible }) => {
   };
 
   const handelLogout = () => {
+    setAuth(false);
     dispatch(logoutUser());
     setMobileNo("");
   };
 
   const isLoggedIn = useSelector((state) => state.auth.status);
-
+  console.log(mobileNo);
   const [mouseOver, setMouseOver] = useState(false);
   return (
     <div
@@ -31,7 +32,7 @@ export const Profile = ({ visible }) => {
       {isLoggedIn ? (
         <>
           <div className={styles.heading}>Hello Shreevali</div>
-          <div className={styles.head}>8554856371</div>
+          <div className={styles.head}>{mobileNo}</div>
         </>
       ) : (
         <>

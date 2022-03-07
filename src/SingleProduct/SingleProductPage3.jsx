@@ -10,8 +10,6 @@ export const SingleProductPage3 = ({ price }) => {
   const [pin, setPin] = useState();
   const pinCheck = () => {
     if (pin.length < 6) {
-      // console.log(pin.length, typeof(pin))
-      //  <Alert severity="error">Please enter a valid code</Alert>
       alert("Please enter a valid code");
     }
   };

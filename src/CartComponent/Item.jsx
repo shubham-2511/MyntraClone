@@ -55,7 +55,10 @@ export const Item = () => {
         dispatch(removeCartItem(id));
         getCart();
       })
-      .catch((e) => getCartError());
+      .catch((e) => {
+        console.log(e);
+        getCartError();
+      });
   };
   // let navigate = useNavigate();
   useEffect(() => {
@@ -68,161 +71,167 @@ export const Item = () => {
           <CircularProgress />
         </div>
       ) : error ? (
-        <h1>something went wrong</h1>
-      ) : (
-        <div>
-          {cart.map((cartItem) => (
-            <Card
-              sx={{
-                display: "flex",
-                border: "1px solid #dfdfe2",
-                padding: "13px",
-                height: "9.8em",
-                paddingRight: "0px",
-                marginTop: "10px",
-                flexDirection: "row",
-              }}
-              className={style.item}
-            >
-              <CardMedia
-                component="img"
-                sx={{ width: 131 }}
-                image={cartItem.images[0]}
-                alt="Live from space album cover"
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  padding: "0px",
-                }}
-              >
-                <CardContent
-                  sx={{
-                    padding: "0px",
-                    paddingLeft: "10px",
-                    margin: "0px",
-                  }}
-                >
-                  <Typography
-                    component="div"
-                    className={styles.brand_name}
-                    variant="h6"
-                  >
-                    {cartItem.brand_name}{" "}
-                    <span
-                      style={{
-                        float: "right",
-                        marginLeft: "250px",
-                        marginRight: "0px",
-
-                        alignContent: "right",
-                      }}
-                      onClick={() => removeItem(cartItem.id)}
-                    >
-                      <CloseIcon />
-                    </span>
-                  </Typography>
-                  <Typography
-                    component="div"
-                    className={styles.name}
-                    variant="p"
-                  >
-                    {cartItem.name}
-                  </Typography>
-                  <Typography
-                    component="div"
-                    className={styles.sold}
-                    variant="p"
-                  >
-                    Sold by: Vision Star
-                  </Typography>
-                  <Select
-                    value={size}
-                    // label="Size"
-                    className={styles.selectbox}
-                    onChange={(e) => handleChange(e.target.value)}
-                  >
-                    <MenuItem value={"S"}>S</MenuItem>
-                    <MenuItem value={"M"}>M</MenuItem>
-                    <MenuItem value={"L"}>L</MenuItem>
-                    <MenuItem value={"XL"}>XL</MenuItem>
-                    <MenuItem value={"XXL"}>XXL</MenuItem>
-                  </Select>
-                  <Select
-                    value={1}
-                    label="Size"
-                    className={styles.selectbox}
-                    //  onChange={handleChange}
-                  >
-                    <MenuItem value={1}>1</MenuItem>
-                    <MenuItem value={2}>2</MenuItem>
-                    <MenuItem value={3}>3</MenuItem>
-                    <MenuItem value={4}>4</MenuItem>
-                    <MenuItem value={5}>5</MenuItem>
-                  </Select>
-
-                  <Typography
-                    variant="body1"
-                    className={styles.price_details}
-                    component="div"
-                  >
-                    <p>
-                      <CurrencyRupeeIcon
-                        style={{
-                          width: "11",
-                          height: "11",
-                          marginTop: "3px",
-                        }}
-                      />
-                      {cartItem.price.sp}
-                    </p>
-                    <p
-                      style={{
-                        textDecoration: "line-through",
-                        color: "#d0d0d1",
-                        fontWeight: "300",
-                      }}
-                    >
-                      <CurrencyRupeeIcon
-                        style={{
-                          width: "11",
-                          height: "11",
-                          marginTop: "3px",
-                        }}
-                      />
-                      {cartItem.price.mrp}
-                    </p>
-                    <p
-                      style={{
-                        color: "hsl(346, 100%, 62%)",
-                        fontWeight: "300",
-                      }}
-                    >
-                      {`${cartItem.price.discount}% `} OFF
-                    </p>
-                  </Typography>
-                  <Typography
-                    component="div"
-                    className={styles.delivery}
-                    variant="p"
-                  >
-                    <DoneIcon
-                      style={{
-                        color: "green",
-                        width: "15",
-                        height: "15",
-                        marginTop: "5px",
-                      }}
-                    />{" "}
-                    Delivery by{" "}
-                    <span style={{ fontWeight: "500" }}>17 MARCH 2022</span>
-                  </Typography>
-                </CardContent>
-              </Box>
-            </Card>
-          ))}
+        <div style={{ width: "100px", margin: "auto" }}>
+          <CircularProgress />
         </div>
+      ) : (
+        <>
+          {cart.length > 0 &&
+            cart &&
+            cart.map((cartItem) => (
+              <div key={cartItem.id}>
+                <Card
+                  sx={{
+                    display: "flex",
+                    border: "1px solid #dfdfe2",
+                    padding: "13px",
+                    height: "9.8em",
+                    paddingRight: "0px",
+                    marginTop: "10px",
+                    flexDirection: "row",
+                  }}
+                  className={style.item}
+                >
+                  <CardMedia
+                    component="img"
+                    sx={{ width: 131 }}
+                    image={cartItem.images[0]}
+                    alt="Live from space album cover"
+                  />
+                  <Box
+                    sx={{
+                      display: "flex",
+                      flexDirection: "column",
+                      padding: "0px",
+                    }}
+                  >
+                    <CardContent
+                      sx={{
+                        padding: "0px",
+                        paddingLeft: "10px",
+                        margin: "0px",
+                      }}
+                    >
+                      <Typography
+                        component="div"
+                        className={styles.brand_name}
+                        variant="h6"
+                      >
+                        {cartItem.brand_name}{" "}
+                        <p
+                          style={{
+                            float: "right",
+                            // marginLeft: "50%",
+                            marginRight: "10%",
+
+                            alignContent: "right",
+                          }}
+                          onClick={() => removeItem(cartItem.id)}
+                        >
+                          <CloseIcon />
+                        </p>
+                      </Typography>
+                      <Typography
+                        component="div"
+                        className={styles.name}
+                        variant="p"
+                      >
+                        {cartItem.name}
+                      </Typography>
+                      <Typography
+                        component="div"
+                        className={styles.sold}
+                        variant="p"
+                      >
+                        Sold by: Vision Star
+                      </Typography>
+                      <Select
+                        value={size}
+                        // label="Size"
+                        className={styles.selectbox}
+                        onChange={(e) => handleChange(e.target.value)}
+                      >
+                        <MenuItem value={"S"}>S</MenuItem>
+                        <MenuItem value={"M"}>M</MenuItem>
+                        <MenuItem value={"L"}>L</MenuItem>
+                        <MenuItem value={"XL"}>XL</MenuItem>
+                        <MenuItem value={"XXL"}>XXL</MenuItem>
+                      </Select>
+                      <Select
+                        value={1}
+                        label="Size"
+                        className={styles.selectbox}
+                        //  onChange={handleChange}
+                      >
+                        <MenuItem value={1}>1</MenuItem>
+                        <MenuItem value={2}>2</MenuItem>
+                        <MenuItem value={3}>3</MenuItem>
+                        <MenuItem value={4}>4</MenuItem>
+                        <MenuItem value={5}>5</MenuItem>
+                      </Select>
+
+                      <Typography
+                        variant="body1"
+                        className={styles.price_details}
+                        component="div"
+                      >
+                        <p>
+                          <CurrencyRupeeIcon
+                            style={{
+                              width: "11",
+                              height: "11",
+                              marginTop: "3px",
+                            }}
+                          />
+                          {cartItem.price.sp}
+                        </p>
+                        <p
+                          style={{
+                            textDecoration: "line-through",
+                            color: "#d0d0d1",
+                            fontWeight: "300",
+                          }}
+                        >
+                          <CurrencyRupeeIcon
+                            style={{
+                              width: "11",
+                              height: "11",
+                              marginTop: "3px",
+                            }}
+                          />
+                          {cartItem.price.mrp}
+                        </p>
+                        <p
+                          style={{
+                            color: "hsl(346, 100%, 62%)",
+                            fontWeight: "300",
+                          }}
+                        >
+                          {`${cartItem.price.discount}% `} OFF
+                        </p>
+                      </Typography>
+                      <Typography
+                        component="div"
+                        className={styles.delivery}
+                        variant="p"
+                      >
+                        <DoneIcon
+                          style={{
+                            color: "green",
+                            width: "15",
+                            height: "15",
+                            marginTop: "5px",
+                          }}
+                        />{" "}
+                        Delivery by{" "}
+                        <span style={{ fontWeight: "500" }}>17 MARCH 2022</span>
+                      </Typography>
+                    </CardContent>
+                  </Box>
+                </Card>
+              </div>
+            ))}
+        </>
       )}
     </div>
   );

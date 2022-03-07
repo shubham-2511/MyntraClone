@@ -90,6 +90,7 @@ export const AuthContextProvider = ({ children }) => {
     setEnterCapche,
     authCapche,
     authenticateCapche,
+    setAuth,
   };
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
