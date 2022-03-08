@@ -21,7 +21,7 @@ import {
   getProductError,
   getProductLoading,
 } from "../Store/Products/actions";
-import styles from "./Product.module.css";
+import styles from "./product.module.css";
 import { ProductCard } from "./ProductCard";
 
 export const MenJeans = () => {

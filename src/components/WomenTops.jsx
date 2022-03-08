@@ -19,7 +19,7 @@ import {
   getTopsFiltered,
   getTopsSucess,
 } from "../Store/Products/actions";
-import styles from "./Product.module.css";
+import styles from "./product.module.css";
 import { ProductCard } from "./ProductCard";
 import { Footer } from "../Footer/Footer";
 import { loginUser } from "../Store/AuthReducer/actions";

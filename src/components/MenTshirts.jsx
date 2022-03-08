@@ -21,7 +21,7 @@ import {
   getShirtsFiltered,
   getShirtsSucess,
 } from "../Store/Products/actions";
-import styles from "./Product.module.css";
+import styles from "./product.module.css";
 import { ProductCard } from "./ProductCard";
 
 export const MenTshirts = () => {
