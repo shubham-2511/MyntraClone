@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
-import styles from "./Product.module.css";
+import styles from "./product.module.css";
 import { ProductCard } from "./ProductCard";
 import { useDispatch, useSelector } from "react-redux";
 import {

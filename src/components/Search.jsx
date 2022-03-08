@@ -8,7 +8,7 @@ import {
   getSearch,
 } from "../Store/Products/actions";
 import { ProductCard } from "./ProductCard";
-import styles from "./Product.module.css";
+import styles from "./product.module.css";
 import {
   Button,
   CircularProgress,
