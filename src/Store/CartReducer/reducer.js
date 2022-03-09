@@ -27,6 +27,7 @@ export const cartReducer = (state = init, { type, payload }) => {
         ...state,
         loading: false,
         cart: payload,
+        error: false,
       };
     }
     case GET_CART_ERROR: {
