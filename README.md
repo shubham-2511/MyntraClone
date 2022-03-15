@@ -29,8 +29,8 @@ https://myntra-clone-gilt.vercel.app/
 9. React-Redux Docs: https://react-redux.js.org/
 
 ## Duration of project:
-- statrted on 28th of Feb, 2022 and completed at 5th Mar, 2022.
-- It takes one week to accomplish this the project.
+- Statrted on 28th of Feb, 2022 and completed on 5th Mar, 2022.
+- It took us one week to build this project.
 
 ## Live Project presentation video link:
 - You can watch our project presentation on the following link: https://drive.google.com/file/d/1YZwJJubp4IKZmc7feePAM-RLxzLlEow-/view?usp=sharing
@@ -49,3 +49,5 @@ https://myntra-clone-gilt.vercel.app/
 
 ### Wishlist Page
 ![Header](https://github.com/rawat2511/images/blob/master/myntraWishlist.png?raw=true)
+
+
