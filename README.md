@@ -1,4 +1,4 @@
-# Deployment Lint
+# Deployment Link
 https://myntra-clone-gilt.vercel.app/
 
 ## Team Members: 
