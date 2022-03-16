@@ -1,53 +1,75 @@
-# Deployment Link
-https://myntra-clone-gilt.vercel.app/
+# Myntra - (Clone)
 
-## Team Members: 
-1. Shreevali Kushe
-2. Mansi Garg
-3. Ashish Sinha
-4. Shubham Rawat
+<p>A clone of the Myntra Website. Myntra is a major Indian fashion e-commerce company headquartered in Bengaluru, Karnataka, India. </p>
+  
+  <p>A clone of the e-commerce site Myntra developed using ReactJS, ReduxJS, routes and Material UI. </p>
+  
+  # Technology Stack Used 💻
+- React
+- Redux
+- Material UI
 
-## Tech Stacks Used:
-1. HTML
-2. CSS
-3. JavaScript
-4. React.js
-5. Redux.js
-6. React Redux
-7. JSON-server
-8. Material UI
+## How to run the project 📑
 
-## References: 
-1. Myntra website: https://www.myntra.com/
-2. MDN-JavaScript Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-3. MDN-CSS Docs: https://developer.mozilla.org/en-US/docs/Web/css
-4. MDN-HTML Docs: https://developer.mozilla.org/en-US/docs/Web/html
-5. NPM Docs: https://docs.npmjs.com
-6. MOCK-SERVER Docs: https://www.mock-server.com
-7. React Docs: https://reactjs.org/
-8. Redux Docs: https://redux.js.org/
-9. React-Redux Docs: https://react-redux.js.org/
+In this project we were able to built a near to perfect clone of the original website. Please fork the repository and then use it on your own.
 
-## Duration of project:
-- Statrted on 28th of Feb, 2022 and completed on 5th Mar, 2022.
-- It took us one week to build this project.
+You can also take the glimpse of our Project, just follow the below steps:
 
-## Live Project presentation video link:
-- You can watch our project presentation on the following link: https://drive.google.com/file/d/1YZwJJubp4IKZmc7feePAM-RLxzLlEow-/view?usp=sharing
-- Exact duration of presentation video: 4min 7sec
+    1.run the command npm run start in terminal to start the app at port 3000.
 
-## Snap Shots: 
+    2.Go to the browser you will land in the landing page just login using your mobile number.
 
-### Home Page
+<br>
+
+## Snapshots 📷
+
+1. Home Page
+
 ![Header](https://github.com/rawat2511/images/blob/master/myntraHome.png?raw=true)
 
-### Mega Dropdown
+2. Mega Dropdown
+
 ![Header](https://github.com/rawat2511/images/blob/master/myntraMegaDropdown.png?raw=true)
 
-### Payments Page
+3. Cart Page
+
 ![Header](https://github.com/rawat2511/images/blob/master/myntraPayment.png?raw=true)
 
-### Wishlist Page
+4. Wishlist Page
+
 ![Header](https://github.com/rawat2511/images/blob/master/myntraWishlist.png?raw=true)
+  
+  
+  
+  
+## Features ✨
+
+1. 4 different product type pages with filtering and sorting options
+2. Wishlist Page
+3. Dynamic Cart and cart price functionality
+<br/>
+
+## Demo 🎥
+
+-Deployed Link: [Myntra-clone](https://myntra-clone-gilt.vercel.app/)
 
 
+<br/>
+
+## Team Members and Contributors 😇
+
+👤 **Shreevali Kushe**
+
+- Github: [Shreevali Kushe](https://github.com/shreevalikushe)
+
+👤 **Shubham Rawat**
+
+- Github: [Shubham Rawat](https://github.com/rawat2511)
+
+👤 **Mansi Garg**
+
+- Github: [Mansi Garg](https://github.com/04Mansigarg)
+
+👤 **Ashish Sinha**
+
+- Github: [Ashish Sinha](https://github.com/a4aks)
