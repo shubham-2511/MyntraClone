@@ -31,7 +31,7 @@ export const Profile = ({ visible }) => {
     >
       {isLoggedIn ? (
         <>
-          <div className={styles.heading}>Hello Shreevali</div>
+          <div className={styles.heading}>Hello</div>
           <div className={styles.head}>{mobileNo}</div>
         </>
       ) : (
